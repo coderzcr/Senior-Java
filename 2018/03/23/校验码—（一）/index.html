@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="zcr&#39;s blog">
 <meta property="og:description" content="校验码校验码简介　　计算机系统运行时，各个部件之间要进行数据交换，交换过程中可能发生错误，即0变成1或1变成0，为了确保数据在传送过程中正确无误，一是提高硬件电路的可靠性，二是提高代码的校验能力，包括查错和纠错。常用的3中校验码为就校验码、海明吗和循环冗余校验码 奇偶校验码简介　　奇偶校验是一种简单有效的校验方法。奇偶校验码是奇校验码和偶校验码的统称. 它们都是通过在要校验的编码上加一位校验位组成">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-03-23T09:07:19.984Z">
+<meta property="og:updated_time" content="2018-03-23T09:09:43.048Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="校验码—（一）">
 <meta name="twitter:description" content="校验码校验码简介　　计算机系统运行时，各个部件之间要进行数据交换，交换过程中可能发生错误，即0变成1或1变成0，为了确保数据在传送过程中正确无误，一是提高硬件电路的可靠性，二是提高代码的校验能力，包括查错和纠错。常用的3中校验码为就校验码、海明吗和循环冗余校验码 奇偶校验码简介　　奇偶校验是一种简单有效的校验方法。奇偶校验码是奇校验码和偶校验码的统称. 它们都是通过在要校验的编码上加一位校验位组成">
@@ -464,10 +464,10 @@
 </table>
 <p>　当原编码在传输、储存的过程中发生了误码，1的数量就会改变，然后就能校验出该过程出现了错误。</p>
 <ol>
-<li>垂直奇偶校验码<br>　把数据分成若干组,一组数据排成一行,再加一行校验码. 针对每一行列采用奇校验 或 偶校验</li>
-</ol>
-<table><br>    <tr><br>        <th>奇校验</th><br>        <th>偶校验</th><br>        <th>备注</th><br>    </tr><br>    <tr><br>        <td>10100101</td><br>        <td>10100101</td><br>        <td rowspan="4">数据</td><br>    </tr><br>    <tr><br>        <td>00110110</td><br>        <td>00110110</td><br>    </tr><br>    <tr><br>        <td>11001100</td><br>        <td>11001100</td><br>    </tr><br>    <tr><br>        <td>10101011</td><br>        <td>10101011</td><br>    </tr><br>    <tr><br>        <td>00001011</td><br>        <td>11110100</td><br>        <td>校验</td><br>    </tr><br></table>
+<li>垂直奇偶校验码<br>　把数据分成若干组,一组数据排成一行,再加一行校验码. 针对每一行列采用奇校验 或 偶校验<table><br><tr><br>    <th>奇校验</th><br>    <th>偶校验</th><br>    <th>备注</th><br></tr><br><tr><br>    <td>10100101</td><br>    <td>10100101</td><br>    <td rowspan="4">数据</td><br></tr><br><tr><br>    <td>00110110</td><br>    <td>00110110</td><br></tr><br><tr><br>    <td>11001100</td><br>    <td>11001100</td><br></tr><br><tr><br>    <td>10101011</td><br>    <td>10101011</td><br></tr><br><tr><br>    <td>00001011</td><br>    <td>11110100</td><br>    <td>校验</td><br></tr><br></table>
 
+</li>
+</ol>
 <h3 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h3><ul>
 <li>只能检测出奇数位出错. 如果发生偶数位错误就无法检测<br>设原编码为0000，传输的过程中变成了1001。如果使用奇校验，原编码是00001，传输过后会变成10011，1仍然是奇数个，无法校验；如果使用偶校验，原编码是00000，传输过后会变成10010，1仍然是偶数个，同样无法校验。</li>
 <li>奇偶校验码无法检测出哪位出错.所以属于无法矫正错误的校验码</li>
