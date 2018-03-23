@@ -357,9 +357,8 @@
           
 
   
-     <div id="gitalk-container">
-     </div>
-     
+    <div class="comments" id="comments">
+    </div>
   
 
 
@@ -664,22 +663,29 @@
 
 
 
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'BVG7GAioPhSIb9zmkD034FOR-gzGzoHsz',
+        appKey: '8NhKdm0qgbPWCoDmfySVlzkU',
+        placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
-  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-   <script type="text/javascript">
-        var gitalk = new Gitalk({
-          clientID: '9f56df535b312da9300a',
-          clientSecret: '62923a6552bdec978b3a44d0d5aca5c5b0c3b143',
-          repo: 'coderzcr.github.io',
-          owner: 'coderzcr',
-          admin: ['coderzcr'],
-          id: location.pathname,
-          distractionFreeMode: 'true'
-        })
-        gitalk.render('gitalk-container')           
-       </script>
 
   
 
