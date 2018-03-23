@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="zcr&#39;s blog">
 <meta property="og:description" content="校验码校验码简介　　计算机系统运行时，各个部件之间要进行数据交换，交换过程中可能发生错误，即0变成1或1变成0，为了确保数据在传送过程中正确无误，一是提高硬件电路的可靠性，二是提高代码的校验能力，包括查错和纠错。常用的3中校验码为就校验码、海明吗和循环冗余校验码 奇偶校验码简介　　奇偶校验是一种简单有效的校验方法。奇偶校验码是奇校验码和偶校验码的统称. 它们都是通过在要校验的编码上加一位校验位组成">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-03-23T09:10:57.488Z">
+<meta property="og:updated_time" content="2018-03-23T09:12:30.991Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="校验码—（一）">
 <meta name="twitter:description" content="校验码校验码简介　　计算机系统运行时，各个部件之间要进行数据交换，交换过程中可能发生错误，即0变成1或1变成0，为了确保数据在传送过程中正确无误，一是提高硬件电路的可靠性，二是提高代码的校验能力，包括查错和纠错。常用的3中校验码为就校验码、海明吗和循环冗余校验码 奇偶校验码简介　　奇偶校验是一种简单有效的校验方法。奇偶校验码是奇校验码和偶校验码的统称. 它们都是通过在要校验的编码上加一位校验位组成">
@@ -428,9 +428,7 @@
         <h1 id="校验码"><a href="#校验码" class="headerlink" title="校验码"></a>校验码</h1><h2 id="校验码简介"><a href="#校验码简介" class="headerlink" title="校验码简介"></a>校验码简介</h2><p>　　计算机系统运行时，各个部件之间要进行数据交换，交换过程中可能发生错误，即0变成1或1变成0，为了确保数据在传送过程中正确无误，一是提高硬件电路的可靠性，二是提高代码的校验能力，包括查错和纠错。常用的3中校验码为就校验码、海明吗和循环冗余校验码</p>
 <h2 id="奇偶校验码"><a href="#奇偶校验码" class="headerlink" title="奇偶校验码"></a>奇偶校验码</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>　　奇偶校验是一种简单有效的校验方法。奇偶校验码是奇校验码和偶校验码的统称. 它们都是通过在要校验的编码上加一位校验位组成。</p>
 <h3 id="校验方法"><a href="#校验方法" class="headerlink" title="校验方法"></a>校验方法</h3><p>　　如果是奇校验加上校验位后,编码中1的个数为奇数个。如果是偶校验加上校验位后,编码中1的个数为偶数个。</p>
-<h3 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h3><ol>
-<li>水平奇偶校验码<br>对每一个数据的编码添加校验位,使信息位与校验位处于同一行</li>
-</ol>
+<h3 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h3><h4 id="水平奇偶校验码"><a href="#水平奇偶校验码" class="headerlink" title="水平奇偶校验码"></a>水平奇偶校验码</h4><p> 对每一个数据的编码添加校验位,使信息位与校验位处于同一行</p>
 <table>
 <thead>
 <tr>
@@ -463,11 +461,9 @@
 </tbody>
 </table>
 <p>　当原编码在传输、储存的过程中发生了误码，1的数量就会改变，然后就能校验出该过程出现了错误。</p>
-<ol>
-<li>垂直奇偶校验码<br>　把数据分成若干组,一组数据排成一行,再加一行校验码. 针对每一行列采用奇校验 或 偶校验<table><br><tr><br>    <th>奇校验</th><br>    <th>偶校验</th><br>    <th>备注</th><br></tr><br><tr><br>    <td>10100101</td><br>    <td>10100101</td><br>    <td rowspan="4">数据</td><br></tr><br><tr><br>    <td>00110110</td><br>    <td>00110110</td><br></tr><br><tr><br>    <td>11001100</td><br>    <td>11001100</td><br></tr><br><tr><br>    <td>10101011</td><br>    <td>10101011</td><br></tr><br><tr><br>    <td>00001011</td><br>    <td>11110100</td><br>    <td>校验</td><br></tr><br></table>
+<h4 id="垂直奇偶校验码"><a href="#垂直奇偶校验码" class="headerlink" title="垂直奇偶校验码"></a>垂直奇偶校验码</h4><p> 　把数据分成若干组,一组数据排成一行,再加一行校验码. 针对每一行列采用奇校验 或 偶校验</p>
+<table><br>    <tr><br>        <th>奇校验</th><br>        <th>偶校验</th><br>        <th>备注</th><br>    </tr><br>    <tr><br>        <td>10100101</td><br>        <td>10100101</td><br>        <td rowspan="4">数据</td><br>    </tr><br>    <tr><br>        <td>00110110</td><br>        <td>00110110</td><br>    </tr><br>    <tr><br>        <td>11001100</td><br>        <td>11001100</td><br>    </tr><br>    <tr><br>        <td>10101011</td><br>        <td>10101011</td><br>    </tr><br>    <tr><br>        <td>00001011</td><br>        <td>11110100</td><br>        <td>校验</td><br>    </tr><br></table>
 
-</li>
-</ol>
 <h3 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h3><ul>
 <li>只能检测出奇数位出错. 如果发生偶数位错误就无法检测<br>设原编码为0000，传输的过程中变成了1001。如果使用奇校验，原编码是00001，传输过后会变成10011，1仍然是奇数个，无法校验；如果使用偶校验，原编码是00000，传输过后会变成10010，1仍然是偶数个，同样无法校验。</li>
 <li>奇偶校验码无法检测出哪位出错.所以属于无法矫正错误的校验码</li>
@@ -719,7 +715,7 @@ var jiathis_config={
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#校验码"><span class="nav-number">1.</span> <span class="nav-text">校验码</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#校验码简介"><span class="nav-number">1.1.</span> <span class="nav-text">校验码简介</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#奇偶校验码"><span class="nav-number">1.2.</span> <span class="nav-text">奇偶校验码</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#简介"><span class="nav-number">1.2.1.</span> <span class="nav-text">简介</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#校验方法"><span class="nav-number">1.2.2.</span> <span class="nav-text">校验方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#分类"><span class="nav-number">1.2.3.</span> <span class="nav-text">分类</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#缺点"><span class="nav-number">1.2.4.</span> <span class="nav-text">缺点</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#校验码"><span class="nav-number">1.</span> <span class="nav-text">校验码</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#校验码简介"><span class="nav-number">1.1.</span> <span class="nav-text">校验码简介</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#奇偶校验码"><span class="nav-number">1.2.</span> <span class="nav-text">奇偶校验码</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#简介"><span class="nav-number">1.2.1.</span> <span class="nav-text">简介</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#校验方法"><span class="nav-number">1.2.2.</span> <span class="nav-text">校验方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#分类"><span class="nav-number">1.2.3.</span> <span class="nav-text">分类</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#水平奇偶校验码"><span class="nav-number">1.2.3.1.</span> <span class="nav-text">水平奇偶校验码</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#垂直奇偶校验码"><span class="nav-number">1.2.3.2.</span> <span class="nav-text">垂直奇偶校验码</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#缺点"><span class="nav-number">1.2.4.</span> <span class="nav-text">缺点</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
