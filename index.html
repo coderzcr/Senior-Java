@@ -460,8 +460,42 @@
 </table>
 <p>　当原编码在传输、储存的过程中发生了误码，1的数量就会改变，然后就能校验出该过程出现了错误。</p>
 <h4 id="垂直奇偶校验码"><a href="#垂直奇偶校验码" class="headerlink" title="垂直奇偶校验码"></a>垂直奇偶校验码</h4><p> 　把数据分成若干组,一组数据排成一行,再加一行校验码. 针对每一行列采用奇校验 或 偶校验</p>
-<table><br>    <tr><br>        <th>奇校验</th><br>        <th>偶校验</th><br>        <th>备注</th><br>    </tr><br>    <tr><br>        <td>10100101</td><br>        <td>10100101</td><br>        <td rowspan="4">数据</td><br>    </tr><br>    <tr><br>        <td>00110110</td><br>        <td>00110110</td><br>    </tr><br>    <tr><br>        <td>11001100</td><br>        <td>11001100</td><br>    </tr><br>    <tr><br>        <td>10101011</td><br>        <td>10101011</td><br>    </tr><br>    <tr><br>        <td>00001011</td><br>        <td>11110100</td><br>        <td>校验</td><br>    </tr><br></table>
-
+<table>
+<thead>
+<tr>
+<th>奇校验</th>
+<th style="text-align:center">偶校验</th>
+<th style="text-align:center">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10100101</td>
+<td style="text-align:center">10100101</td>
+<td style="text-align:center">数据</td>
+</tr>
+<tr>
+<td>00110110</td>
+<td style="text-align:center">00110110</td>
+<td style="text-align:center">数据</td>
+</tr>
+<tr>
+<td>11001100</td>
+<td style="text-align:center">11001100</td>
+<td style="text-align:center">数据</td>
+</tr>
+<tr>
+<td>10101011</td>
+<td style="text-align:center">10101011</td>
+<td style="text-align:center">数据</td>
+</tr>
+<tr>
+<td>00001011</td>
+<td style="text-align:center">11110100</td>
+<td style="text-align:center">校验</td>
+</tr>
+</tbody>
+</table>
 <h3 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h3><ul>
 <li>只能检测出奇数位出错. 如果发生偶数位错误就无法检测<br>设原编码为0000，传输的过程中变成了1001。如果使用奇校验，原编码是00001，传输过后会变成10011，1仍然是奇数个，无法校验；如果使用偶校验，原编码是00000，传输过后会变成10010，1仍然是偶数个，同样无法校验。</li>
 <li>奇偶校验码无法检测出哪位出错.所以属于无法矫正错误的校验码</li>
