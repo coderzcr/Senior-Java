@@ -320,6 +320,177 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/03/26/校验码（二）/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="zcr">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="zcr's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/03/26/校验码（二）/" itemprop="url">校验码（二）</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-03-26T16:21:49+08:00">
+                2018-03-26
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/03/26/校验码（二）/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/03/26/校验码（二）/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>##海明码</p>
+<p>###简介<br>　　海明码（Hamming Code）是由贝尔实验室的Richard Hamming设计的，它也是利用奇偶性来检错和纠错的校验方法。它的实现原理是在m个数据位之外加上k个校验位，从而形成一个m+k位的新的码字，使新的码字的码距比较均匀的拉大。</p>
+<blockquote>
+<p>两个码组对应位上数字不同位的个数称为码组的距离，简称码距。<br>比如10101和00001，这两个二进制码中，有三个不同的位置，所以码距为3.</p>
+</blockquote>
+<p>　　把数据的每一个二进制位分配在几个不同的奇偶校验位的组合中，当某一位出错后，就会引起相关的几个校验位的值发生变化，这不但可以发现出错，还能指出是哪一位出错，为进一步自动纠错提供了依据。</p>
+<p>###注意点</p>
+<ul>
+<li>海明码校验位是放在2的幂次位上的，即“1,2,4,8,16,32……”</li>
+<li>数据位为m的原始数据，需要加入k位的校验码，它满足$$m+k+1&lt;2^k$$</li>
+</ul>
+<p>###实例<br><strong>计算原始信息位为01101001的海明校验码。</strong></p>
+<ol>
+<li>先用$$m+k+1&lt;2^k$$计算出校验位：$$8+k+1&lt;2^k$$ $$k=4$$</li>
+<li>海明校验码是放在2的幂次位上，所以插在位置1，2，4，8中<br>|位置|1|2|3|4|5|6|7|8|9|10|11|12|<br>|——————————-|<br>|原始信息位|||0||1|1|0||1|0|0|1 |</li>
+<li>计算当前位置是由哪几个校验码所在的位置的和<br>|位置|校验码|汇总|<br>|—————-|<br>|1|检验位||<br>|2|检验位||<br>|3|1,2|1+2=3|<br>|4|检验位||<br>|5|1,4|1+4=5|<br>|6|2,4|2+4=6|<br>|7|1,2,4|1+2+4=7|<br>|8|检验位||<br>|9|1,8|1+8=9|<br>|10|2,8|2+8=10|<br>|11|1,2,8|1+2+8|<br>|12|4,8|4+8|</li>
+<li>将校验码校验的位置记录下来<br>|校验码|校验的位置|<br>|:——-:|:———-:|<br>|位置1|3,5,7,9,11 |<br>|位置2|3,6,7,10,11|<br>|位置4|5,6,7,12|<br>|位置8|9,10,11,12|</li>
+<li>做异或运算<br>|校验码|校验值|<br>|:——-:|:———-:|<br>|位置1|$$0\bigoplus 1 \bigoplus 0 \bigoplus 1 \bigoplus 0  = 0$$ |<br>|位置2|$$0\bigoplus 1 \bigoplus 0 \bigoplus 0 \bigoplus 0  = 1$$|<br>|位置4|$$1\bigoplus 1 \bigoplus 0 \bigoplus 1 = 0$$|<br>|位置8|$$1\bigoplus 0 \bigoplus 0 \bigoplus 1 = 0$$|</li>
+<li>得到最终结果<br>|位置|1|2|3|4|5|6|7|8|9|10|11|12|<br>|——————————-|<br>|原始信息位|0|1|0|0|1|1|0|0|1|0|0|1|<br>|是否校验位|√|√|0|√|1|1|0|√|1|0|0|1|<br>###纠错<br>　　对使用海明编码的数据进行差错检测很简单，只需进行以下计算即可。<br>$$G_1 = 海明校验位1\bigoplus海明校验位1校验的位置$$<br>$$G_2 = 海明校验位2\bigoplus海明校验位2校验的位置$$<br>$$G_3 = 海明校验位3\bigoplus海明校验位3校验的位置$$<br>$$G_4 = 海明校验位4\bigoplus海明校验位4校验的位置$$<br>　　若采用偶校验，则G4G3G2G1全为0时表示接收到的数据无错误（奇校验应全为1），当G4G3G2G1不全为0时说明发生了差错。而且G4G3G2G1的十进制值知错了错误的发生位置。比如G4G3G2G1=1010，说明m+k位的第10位有错误，将其取反即可纠正。</li>
+</ol>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/03/23/校验码（一）/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -667,7 +838,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
