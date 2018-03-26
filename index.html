@@ -430,78 +430,20 @@
 <p>　　把数据的每一个二进制位分配在几个不同的奇偶校验位的组合中，当某一位出错后，就会引起相关的几个校验位的值发生变化，这不但可以发现出错，还能指出是哪一位出错，为进一步自动纠错提供了依据。</p>
 <h2 id="注意点"><a href="#注意点" class="headerlink" title="注意点"></a>注意点</h2><ul>
 <li>海明码校验位是放在2的幂次位上的，即“1,2,4,8,16,32……”</li>
-<li>数据位为m的原始数据，需要加入k位的校验码，它满足$$m+k+1&lt;2^k$$<br>##实例##</li>
+<li>数据位为m的原始数据，需要加入k位的校验码，它满足$$m+k+1&lt;2^k$$<h2 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h2></li>
 </ul>
 <p><strong>计算原始信息位为01101001的海明校验码。</strong></p>
 <ol>
-<li><p>先用$$m+k+1&lt;2^k$$计算出校验位：$$8+k+1&lt;2^k$$ $$k=4$$</p>
+<li><p>先用$$ m+k+1&lt;2^k $$计算出校验位：$$ 8+k+1&lt;2^k $$ $$ k=4 $$</p>
 </li>
 <li><p>海明校验码是放在2的幂次位上，所以插在位置1，2，4，8中<br>|位置|1|2|3|4|5|6|7|8|9|10|11|12|<br>|——————————-|<br>|原始信息位|||0||1|1|0||1|0|0|1 |</p>
 </li>
-<li><p>计算当前位置是由哪几个校验码所在的位置的和<br>|位置|校验码|汇总|<br>|—————-|<br>|1|检验位||<br>|2|检验位||<br>|3|1,2|1+2=3|<br>|4|检验位||<br>|5|1,4|1+4=5|<br>|6|2,4|2+4=6|<br>|7|1,2,4|1+2+4=7|<br>|8|检验位||<br>|9|1,8|1+8=9|<br>|10|2,8|2+8=10|<br>|11|1,2,8|1+2+8|<br>|12|4,8|4+8|</p>
-</li>
-<li><p>将校验码校验的位置记录下来</p>
-</li>
-</ol>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">校验码</th>
-<th style="text-align:center">校验的位置</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">位置1</td>
-<td style="text-align:center">3,5,7,9,11</td>
-</tr>
-<tr>
-<td style="text-align:center">位置2</td>
-<td style="text-align:center">3,6,7,10,11</td>
-</tr>
-<tr>
-<td style="text-align:center">位置4</td>
-<td style="text-align:center">5,6,7,12</td>
-</tr>
-<tr>
-<td style="text-align:center">位置8</td>
-<td style="text-align:center">9,10,11,12</td>
-</tr>
-</tbody>
-</table>
-<ol>
-<li>做异或运算</li>
-</ol>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">校验码</th>
-<th style="text-align:center">校验值</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">位置1</td>
-<td style="text-align:center">$$0\bigoplus 1 \bigoplus 0 \bigoplus 1 \bigoplus 0  = 0$$</td>
-</tr>
-<tr>
-<td style="text-align:center">位置2</td>
-<td style="text-align:center">$$0\bigoplus 1 \bigoplus 0 \bigoplus 0 \bigoplus 0  = 1$$</td>
-</tr>
-<tr>
-<td style="text-align:center">位置4</td>
-<td style="text-align:center">$$1\bigoplus 1 \bigoplus 0 \bigoplus 1 = 0$$</td>
-</tr>
-<tr>
-<td style="text-align:center">位置8</td>
-<td style="text-align:center">$$1\bigoplus 0 \bigoplus 0 \bigoplus 1 = 0$$</td>
-</tr>
-</tbody>
-</table>
-<ol>
+<li>计算当前位置是由哪几个校验码所在的位置的和<br>|位置|校验码|汇总|<br>|—————-|<br>|1|检验位||<br>|2|检验位||<br>|3|1,2|1+2=3|<br>|4|检验位||<br>|5|1,4|1+4=5|<br>|6|2,4|2+4=6|<br>|7|1,2,4|1+2+4=7|<br>|8|检验位||<br>|9|1,8|1+8=9|<br>|10|2,8|2+8=10|<br>|11|1,2,8|1+2+8|<br>|12|4,8|4+8|</li>
+<li>将校验码校验的位置记录下来<br>|校验码|校验的位置|<br>|:——-:|:———-:|<br>|位置1|3,5,7,9,11 |<br>|位置2|3,6,7,10,11|<br>|位置4|5,6,7,12|<br>|位置8|9,10,11,12|</li>
+<li>做异或运算<br>|校验码|校验值|<br>|:——-:|:———-:|<br>|位置1|$$0\bigoplus 1 \bigoplus 0 \bigoplus 1 \bigoplus 0  = 0$$ |<br>|位置2|$$0\bigoplus 1 \bigoplus 0 \bigoplus 0 \bigoplus 0  = 1$$|<br>|位置4|$$1\bigoplus 1 \bigoplus 0 \bigoplus 1 = 0$$|<br>|位置8|$$1\bigoplus 0 \bigoplus 0 \bigoplus 1 = 0$$|</li>
 <li>得到最终结果<br>|位置|1|2|3|4|5|6|7|8|9|10|11|12|<br>|——————————-|<br>|原始信息位|0|1|0|0|1|1|0|0|1|0|0|1|<br>|是否校验位|√|√|0|√|1|1|0|√|1|0|0|1|<h2 id="纠错"><a href="#纠错" class="headerlink" title="纠错"></a>纠错</h2>　　对使用海明编码的数据进行差错检测很简单，只需进行以下计算即可。</li>
 </ol>
-<p>$$G_1 = 海明校验位1\bigoplus海明校验位1校验的位置$$<br>$$G_2 = 海明校验位2\bigoplus海明校验位2校验的位置$$<br>$$G_3 = 海明校验位3\bigoplus海明校验位3校验的位置$$<br>$$G_4 = 海明校验位4\bigoplus海明校验位4校验的位置$$</p>
+<p>$$ G_1 = 海明校验位1 \bigoplus 海明校验位1校验的位置 $$<br>$$ G_2 = 海明校验位2 \bigoplus 海明校验位2校验的位置 $$<br>$$ G_3 = 海明校验位3 \bigoplus 海明校验位3校验的位置 $$<br>$$ G_4 = 海明校验位4 \bigoplus 海明校验位4校验的位置 $$</p>
 <p>　　若采用偶校验，则G4G3G2G1全为0时表示接收到的数据无错误（奇校验应全为1），当G4G3G2G1不全为0时说明发生了差错。而且G4G3G2G1的十进制值知错了错误的发生位置。比如G4G3G2G1=1010，说明m+k位的第10位有错误，将其取反即可纠正。</p>
 
           
@@ -656,7 +598,7 @@
           <h1 id="校验码"><a href="#校验码" class="headerlink" title="校验码"></a>校验码</h1><h2 id="校验码简介"><a href="#校验码简介" class="headerlink" title="校验码简介"></a>校验码简介</h2><p>　　计算机系统运行时，各个部件之间要进行数据交换，交换过程中可能发生错误，即0变成1或1变成0，为了确保数据在传送过程中正确无误，一是提高硬件电路的可靠性，二是提高代码的校验能力，包括查错和纠错。常用的3中校验码为就校验码、海明吗和循环冗余校验码<br></p>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2018/03/23/校验码（一）/#espandi" rel="contents">
+            <a class="btn" href="/2018/03/23/校验码（一）/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -814,7 +756,7 @@
 <li>《软件设计师真题》（2014-2017）</li></ul>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2018/03/23/软件设计师教材及真题分享/#espandi" rel="contents">
+            <a class="btn" href="/2018/03/23/软件设计师教材及真题分享/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
