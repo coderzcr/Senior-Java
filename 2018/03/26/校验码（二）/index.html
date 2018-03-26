@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="zcr&#39;s blog">
 <meta property="og:description" content="海明码简介　　海明码（Hamming Code）是由贝尔实验室的Richard Hamming设计的，它也是利用奇偶性来检错和纠错的校验方法。它的实现原理是在m个数据位之外加上k个校验位，从而形成一个m+k位的新的码字，使新的码字的码距比较均匀的拉大。  两个码组对应位上数字不同位的个数称为码组的距离，简称码距。比如10101和00001，这两个二进制码中，有三个不同的位置，所以码距为3.　　把数">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-03-26T11:31:15.065Z">
+<meta property="og:updated_time" content="2018-03-26T11:56:40.794Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="校验码（二）">
 <meta name="twitter:description" content="海明码简介　　海明码（Hamming Code）是由贝尔实验室的Richard Hamming设计的，它也是利用奇偶性来检错和纠错的校验方法。它的实现原理是在m个数据位之外加上k个校验位，从而形成一个m+k位的新的码字，使新的码字的码距比较均匀的拉大。  两个码组对应位上数字不同位的个数称为码组的距离，简称码距。比如10101和00001，这两个二进制码中，有三个不同的位置，所以码距为3.　　把数">
@@ -427,7 +427,7 @@
       
         <h1 id="海明码"><a href="#海明码" class="headerlink" title="海明码"></a>海明码</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>　　海明码（Hamming Code）是由贝尔实验室的Richard Hamming设计的，它也是利用奇偶性来检错和纠错的校验方法。它的实现原理是在m个数据位之外加上k个校验位，从而形成一个m+k位的新的码字，使新的码字的码距比较均匀的拉大。</p>
 <blockquote>
-<p>两个码组对应位上数字不同位的个数称为码组的距离，简称码距。<br>比如10101和00001，这两个二进制码中，有三个不同的位置，所以码距为3.<br>　　把数据的每一个二进制位分配在几个不同的奇偶校验位的组合中，当某一位出错后，就会引起相关的几个校验位的值发生变化，这不但可以发现出错，还能指出是哪一位出错，为进一步自动纠错提供了依据。</p>
+<p>两个码组对应位上数字不同位的个数称为码组的距离，简称码距。<br>比如10101和00001，这两个二进制码中，有三个不同的位置，所以码距为3.<br>　　把数据的每一个二进制位分配在几个不同的奇偶校验位的组合中，当某一位出错后，就会引起相关的几个校验位的值发生变化，这不但可以发现出错，还能指出是哪一位出错，为进一步自动纠错提供了依据。<br><a id="more"></a></p>
 </blockquote>
 <h2 id="注意点"><a href="#注意点" class="headerlink" title="注意点"></a>注意点</h2><ul>
 <li>海明码校验位是放在2的幂次位上的，即“1,2,4,8,16,32……”</li>
