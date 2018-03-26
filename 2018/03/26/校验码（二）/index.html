@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="#海明码# ##简介##　　海明码（Hamming Code）是由贝尔实验室的Richard Hamming设计的，它也是利用奇偶性来检错和纠错的校验方法。它的实现原理是在m个数据位之外加上k个校验位，从而形成一个m+k位的新的码字，使新的码字的码距比较均匀的拉大。  两个码组对应位上数字不同位的个数称为码组的距离，简称码距。比如10101和00001，这两个二进制码中，有三个不同的位置，所以码距">
+<meta name="description" content="海明码简介　　海明码（Hamming Code）是由贝尔实验室的Richard Hamming设计的，它也是利用奇偶性来检错和纠错的校验方法。它的实现原理是在m个数据位之外加上k个校验位，从而形成一个m+k位的新的码字，使新的码字的码距比较均匀的拉大。  两个码组对应位上数字不同位的个数称为码组的距离，简称码距。比如10101和00001，这两个二进制码中，有三个不同的位置，所以码距为3.">
 <meta name="keywords" content="计算机原理,软件设计师">
 <meta property="og:type" content="article">
 <meta property="og:title" content="校验码（二）">
 <meta property="og:url" content="http://yoursite.com/2018/03/26/校验码（二）/index.html">
 <meta property="og:site_name" content="zcr&#39;s blog">
-<meta property="og:description" content="#海明码# ##简介##　　海明码（Hamming Code）是由贝尔实验室的Richard Hamming设计的，它也是利用奇偶性来检错和纠错的校验方法。它的实现原理是在m个数据位之外加上k个校验位，从而形成一个m+k位的新的码字，使新的码字的码距比较均匀的拉大。  两个码组对应位上数字不同位的个数称为码组的距离，简称码距。比如10101和00001，这两个二进制码中，有三个不同的位置，所以码距">
+<meta property="og:description" content="海明码简介　　海明码（Hamming Code）是由贝尔实验室的Richard Hamming设计的，它也是利用奇偶性来检错和纠错的校验方法。它的实现原理是在m个数据位之外加上k个校验位，从而形成一个m+k位的新的码字，使新的码字的码距比较均匀的拉大。  两个码组对应位上数字不同位的个数称为码组的距离，简称码距。比如10101和00001，这两个二进制码中，有三个不同的位置，所以码距为3.">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-03-26T09:40:43.368Z">
+<meta property="og:updated_time" content="2018-03-26T10:06:28.727Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="校验码（二）">
-<meta name="twitter:description" content="#海明码# ##简介##　　海明码（Hamming Code）是由贝尔实验室的Richard Hamming设计的，它也是利用奇偶性来检错和纠错的校验方法。它的实现原理是在m个数据位之外加上k个校验位，从而形成一个m+k位的新的码字，使新的码字的码距比较均匀的拉大。  两个码组对应位上数字不同位的个数称为码组的距离，简称码距。比如10101和00001，这两个二进制码中，有三个不同的位置，所以码距">
+<meta name="twitter:description" content="海明码简介　　海明码（Hamming Code）是由贝尔实验室的Richard Hamming设计的，它也是利用奇偶性来检错和纠错的校验方法。它的实现原理是在m个数据位之外加上k个校验位，从而形成一个m+k位的新的码字，使新的码字的码距比较均匀的拉大。  两个码组对应位上数字不同位的个数称为码组的距离，简称码距。比如10101和00001，这两个二进制码中，有三个不同的位置，所以码距为3.">
 
 
 
@@ -425,14 +425,12 @@
       
 
       
-        <p>#海明码#</p>
-<p>##简介##<br>　　海明码（Hamming Code）是由贝尔实验室的Richard Hamming设计的，它也是利用奇偶性来检错和纠错的校验方法。它的实现原理是在m个数据位之外加上k个校验位，从而形成一个m+k位的新的码字，使新的码字的码距比较均匀的拉大。</p>
+        <h1 id="海明码"><a href="#海明码" class="headerlink" title="海明码"></a>海明码</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>　　海明码（Hamming Code）是由贝尔实验室的Richard Hamming设计的，它也是利用奇偶性来检错和纠错的校验方法。它的实现原理是在m个数据位之外加上k个校验位，从而形成一个m+k位的新的码字，使新的码字的码距比较均匀的拉大。</p>
 <blockquote>
 <p>两个码组对应位上数字不同位的个数称为码组的距离，简称码距。<br>比如10101和00001，这两个二进制码中，有三个不同的位置，所以码距为3.</p>
 </blockquote>
 <p>　　把数据的每一个二进制位分配在几个不同的奇偶校验位的组合中，当某一位出错后，就会引起相关的几个校验位的值发生变化，这不但可以发现出错，还能指出是哪一位出错，为进一步自动纠错提供了依据。</p>
-<p>##注意点##</p>
-<ul>
+<h2 id="注意点"><a href="#注意点" class="headerlink" title="注意点"></a>注意点</h2><ul>
 <li>海明码校验位是放在2的幂次位上的，即“1,2,4,8,16,32……”</li>
 <li>数据位为m的原始数据，需要加入k位的校验码，它满足$$m+k+1&lt;2^k$$<br>##实例##</li>
 </ul>
@@ -503,7 +501,7 @@
 </tbody>
 </table>
 <ol>
-<li>得到最终结果<br>|位置|1|2|3|4|5|6|7|8|9|10|11|12|<br>|——————————-|<br>|原始信息位|0|1|0|0|1|1|0|0|1|0|0|1|<br>|是否校验位|√|√|0|√|1|1|0|√|1|0|0|1|<br>##纠错##<br>　　对使用海明编码的数据进行差错检测很简单，只需进行以下计算即可。</li>
+<li>得到最终结果<br>|位置|1|2|3|4|5|6|7|8|9|10|11|12|<br>|——————————-|<br>|原始信息位|0|1|0|0|1|1|0|0|1|0|0|1|<br>|是否校验位|√|√|0|√|1|1|0|√|1|0|0|1|<h2 id="纠错"><a href="#纠错" class="headerlink" title="纠错"></a>纠错</h2>　　对使用海明编码的数据进行差错检测很简单，只需进行以下计算即可。</li>
 </ol>
 <p>$$G_1 = 海明校验位1\bigoplus海明校验位1校验的位置$$<br>$$G_2 = 海明校验位2\bigoplus海明校验位2校验的位置$$<br>$$G_3 = 海明校验位3\bigoplus海明校验位3校验的位置$$<br>$$G_4 = 海明校验位4\bigoplus海明校验位4校验的位置$$</p>
 <p>　　若采用偶校验，则G4G3G2G1全为0时表示接收到的数据无错误（奇校验应全为1），当G4G3G2G1不全为0时说明发生了差错。而且G4G3G2G1的十进制值知错了错误的发生位置。比如G4G3G2G1=1010，说明m+k位的第10位有错误，将其取反即可纠正。</p>
@@ -660,8 +658,17 @@ var jiathis_config={
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -737,6 +744,22 @@ var jiathis_config={
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#海明码"><span class="nav-number">1.</span> <span class="nav-text">海明码</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#简介"><span class="nav-number">1.1.</span> <span class="nav-text">简介</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#注意点"><span class="nav-number">1.2.</span> <span class="nav-text">注意点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#纠错"><span class="nav-number">1.3.</span> <span class="nav-text">纠错</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
