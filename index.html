@@ -320,6 +320,201 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/03/31/spring-boot-微信公众号开发（一）接入微信公众号平台台/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="zcr">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://avatars2.githubusercontent.com/u/37607051?s=460&v=4">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="zcr's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/03/31/spring-boot-微信公众号开发（一）接入微信公众号平台台/" itemprop="url">spring boot 微信公众号开发（一）接入微信公众号平台台</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-03-31T16:41:13+08:00">
+                2018-03-31
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/03/31/spring-boot-微信公众号开发（一）接入微信公众号平台台/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/03/31/spring-boot-微信公众号开发（一）接入微信公众号平台台/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  850
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  4
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="spring-boot-微信公众号开发（一）-接入微信公众号平台"><a href="#spring-boot-微信公众号开发（一）-接入微信公众号平台" class="headerlink" title="spring boot 微信公众号开发（一） 接入微信公众号平台"></a>spring boot 微信公众号开发（一） 接入微信公众号平台</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>最近阿里云服务器活动，279元三年1核2G云服务器，一时兴起，买了三年。<br>购买方式：<a href="https://promotion.aliyun.com/ntms/act/group/team.html?group=IvjvxMVvdB，新用户注册点击购买即可。活动时间是2018年3月28日-2018年4月13日，活动对象为未购买过阿里云产品的新用户。买了服务器之后，就学习起了自己比较干兴趣的微信公众号开发。本人微信公众号开发小菜鸟，如有错误或可优化之处，请多多包涵并指正。" target="_blank" rel="noopener">https://promotion.aliyun.com/ntms/act/group/team.html?group=IvjvxMVvdB，新用户注册点击购买即可。活动时间是2018年3月28日-2018年4月13日，活动对象为未购买过阿里云产品的新用户。买了服务器之后，就学习起了自己比较干兴趣的微信公众号开发。本人微信公众号开发小菜鸟，如有错误或可优化之处，请多多包涵并指正。</a></p>
+<h2 id="基本原理"><a href="#基本原理" class="headerlink" title="基本原理"></a>基本原理</h2><p>微信服务器就相当于一个转发服务器，终端（手机、PAD等）发起请求到微信服务器，微信服务器再讲请求转发到我们开发的服务，我么开发的服务器处理完毕之后，再回发给微信服务器，微信服务器再回复给终端<br><img src="https://images0.cnblogs.com/blog/22790/201310/24144112-8a154829fb9742ebb149b7acfb5a61f4.png" alt="原理"><br>我们需要做的，就是对HTTP请求做出响应。</p>
+<h2 id="实现步骤"><a href="#实现步骤" class="headerlink" title="实现步骤"></a>实现步骤</h2><ul>
+<li>云服务器购买<br>微信公众号开发必须有服务器，或者使用内网映射工具。</li>
+<li>微信公众平台账号申请<br>申请微信公众平台账号，并开启开发者模式，或者申请测试账号。本例为了不影响正式的公众号使用测试账号就行演示。<br>测试账号申请地址：<a href="https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login" target="_blank" rel="noopener">https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login</a></li>
+<li>开发自定义个人服务和接入微信公众平台<br><img src="/2018/03/31/spring-boot-微信公众号开发（一）接入微信公众号平台台/微信公众号配置.bmp" alt="微信公众号配置"><br>url填写服务器地址/+访问路径，比如本例中为服务器地址/wx，端口号默认且只能为80端口，故不用输入端口号。<br>token可自定义输入，但是需要记住，程序中会使用。<br>点击提交之后，会向该url发送get请求，进行校验，校验成功则配置成功。</li>
+</ul>
+<p>以下是校验过程。：<br><img src="http://mmbiz.qpic.cn/mmbiz_png/PiajxSqBRaEIQxibpLbyuSK9B2CRwJYwMRFbDwdwNicNwcwhWaTuibPIqUwocStP6VicjxyGc2S96XlaNiciagkc26eKg/0?wx_fmt=png" alt="验证流程"></p>
+<p>以下是代码部分：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">@GetMapping(value = &quot;/wx&quot;)</span><br><span class="line">public String login(@RequestParam(name = &quot;signature&quot;, required = false) String signature,</span><br><span class="line">		@RequestParam(name = &quot;nonce&quot;, required = false) String nonce,</span><br><span class="line">		@RequestParam(name = &quot;timestamp&quot;, required = false) String timestamp,</span><br><span class="line">		@RequestParam(name = &quot;echostr&quot;, required = false) String echostr) &#123;</span><br><span class="line">	logger.info(&quot;signature is &#123;&#125; , nonce is &#123;&#125; , timestamp is &#123;&#125; , echostr is &#123;&#125;&quot;, signature, nonce, timestamp,</span><br><span class="line">			echostr);</span><br><span class="line">	if (LoginService.checkSignature(signature, timestamp, nonce)) &#123;</span><br><span class="line">		return echostr;</span><br><span class="line">	&#125;</span><br><span class="line">	return &quot;&quot;;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">public class LoginService &#123;</span><br><span class="line">	private static final String token = &quot;zcr&quot;;</span><br><span class="line"></span><br><span class="line">	public static boolean checkSignature(String signature, String timestamp, String nonce) &#123;</span><br><span class="line">		String[] str = new String[] &#123; token, timestamp, nonce &#125;;</span><br><span class="line">		// 排序</span><br><span class="line">		Arrays.sort(str);</span><br><span class="line">		// 拼接字符串</span><br><span class="line">		StringBuffer buffer = new StringBuffer();</span><br><span class="line">		for (int i = 0; i &lt; str.length; i++) &#123;</span><br><span class="line">			buffer.append(str[i]);</span><br><span class="line">		&#125;</span><br><span class="line">		// 进行sha1加密</span><br><span class="line">		String temp = SHA1.encode(buffer.toString());</span><br><span class="line">		// 与微信提供的signature进行匹对</span><br><span class="line">		return signature.equals(temp);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">SHA1</span> </span>&#123;</span><br><span class="line">	<span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">char</span>[] HEX_DIGITS = &#123; <span class="string">'0'</span>, <span class="string">'1'</span>, <span class="string">'2'</span>, <span class="string">'3'</span>, <span class="string">'4'</span>, <span class="string">'5'</span>, <span class="string">'6'</span>, <span class="string">'7'</span>, <span class="string">'8'</span>, <span class="string">'9'</span>, <span class="string">'a'</span>, <span class="string">'b'</span>, <span class="string">'c'</span>, <span class="string">'d'</span>,</span><br><span class="line">			<span class="string">'e'</span>, <span class="string">'f'</span> &#125;;</span><br><span class="line"></span><br><span class="line">	<span class="comment">/**</span></span><br><span class="line"><span class="comment">	 * Takes the raw bytes from the digest and formats them correct.</span></span><br><span class="line"><span class="comment">	 * </span></span><br><span class="line"><span class="comment">	 * <span class="doctag">@param</span> bytes</span></span><br><span class="line"><span class="comment">	 *            the raw bytes from the digest.</span></span><br><span class="line"><span class="comment">	 * <span class="doctag">@return</span> the formatted bytes.</span></span><br><span class="line"><span class="comment">	 */</span></span><br><span class="line">	<span class="function"><span class="keyword">private</span> <span class="keyword">static</span> String <span class="title">getFormattedText</span><span class="params">(<span class="keyword">byte</span>[] bytes)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">int</span> len = bytes.length;</span><br><span class="line">		StringBuilder buf = <span class="keyword">new</span> StringBuilder(len * <span class="number">2</span>);</span><br><span class="line">		<span class="comment">// 把密文转换成十六进制的字符串形式</span></span><br><span class="line">		<span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">0</span>; j &lt; len; j++) &#123;</span><br><span class="line">			buf.append(HEX_DIGITS[(bytes[j] &gt;&gt; <span class="number">4</span>) &amp; <span class="number">0x0f</span>]);</span><br><span class="line">			buf.append(HEX_DIGITS[bytes[j] &amp; <span class="number">0x0f</span>]);</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> buf.toString();</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> String <span class="title">encode</span><span class="params">(String str)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">if</span> (str == <span class="keyword">null</span>) &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">try</span> &#123;</span><br><span class="line">			MessageDigest messageDigest = MessageDigest.getInstance(<span class="string">"SHA1"</span>);</span><br><span class="line">			messageDigest.update(str.getBytes());</span><br><span class="line">			<span class="keyword">return</span> getFormattedText(messageDigest.digest());</span><br><span class="line">		&#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">			<span class="keyword">throw</span> <span class="keyword">new</span> RuntimeException(e);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<hr>
+<p>详细代码访问<a href="https://github.com/coderzcr/wxservice获取" target="_blank" rel="noopener">https://github.com/coderzcr/wxservice获取</a></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/03/26/校验码（二）/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -922,7 +1117,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -944,7 +1139,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -1011,7 +1206,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">1.9k</span>
+    <span title="Site words total count">2.8k</span>
   
 </div>
 
