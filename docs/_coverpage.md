@@ -5,7 +5,7 @@
 
 <!--<span id="busuanzi_container_site_pv">Site View : <span id="busuanzi_value_site_pv">-->
 
-[![stars](https://badgen.net/github/stars/coderzcr/coderzcr?icon=github&color=4ab8a1)](https://github.com/CyC2018/CS-Notes) [![forks](https://badgen.net/github/forks/coderzcr/coderzcr?icon=github&color=4ab8a1)](https://github.com/CyC2018/CS-Notes)
+[![stars](https://badgen.net/github/stars/coderzcr/coderzcr?icon=github&color=4ab8a1)](https://github.com/coderzcr/coderzcr) [![forks](https://badgen.net/github/forks/coderzcr/coderzcr?icon=github&color=4ab8a1)](https://github.com/coderzcr/coderzcr)
 
 [开始阅读](README.md)
 
