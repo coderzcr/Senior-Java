@@ -252,4 +252,155 @@ width|	pixels</br>%|HTML5 不支持。规定表格的宽度。
 
 ### 表单标签
 
-[转HTML5表单_form](https://blog.csdn.net/know9163/article/details/80571529)
+#### 表单语法
+　　HTML 表单用于搜集不同类型的用户输入
+实例-1 form基本使用 method规定如何发送表单数据,常用值：get|post。action表示向何处发送表单数据
+
+```
+<form method="post" action="result.html">
+   <p>名字：<input name="name" type="text" ></p>
+   <p>密码：<input name="pass" type="password"></p>
+   <p>
+      <input type="submit" name="Button" value="提交"/>
+      <input type="reset" name="Reset" value="重填"/> 
+    </p>
+</form>
+```
+
+#### 常用表单元素
+
+input 表单元素，表单项</br>
+
+<table>
+        <tbody>
+            <tr>
+                <th>属性</th>
+                <th>值</th>
+                <th>描述</th>
+            </tr>
+            <tr>
+                <td rowspan="10">type</td>
+                <td>text</td>
+                <td>单行文本输入框</td>
+            </tr>
+            <tr>
+                <td>password</td>
+                <td>密码输入框</td>
+            </tr>
+            <tr>
+                <td>checkbox</td>
+                <td>复选框</td>
+            </tr>
+            <tr>
+                <td>radio</td>
+                <td>单选框</td>
+            </tr>
+            <tr>
+                <td>file</td>
+                <td>文件域</td>
+            </tr>
+            <tr>
+                <td>submit</td>
+                <td>将表单里的信息提交给表单属性action所指向的文件</td>
+            </tr>
+            <tr>
+                <td>reset</td>
+                <td>清空表单信息</td>
+            </tr>
+            <tr>
+                <td>image</td>
+                <td>图片提交按钮</td>
+            </tr>
+            <tr>
+                <td>button</td>
+                <td>按钮</td>
+            </tr>
+            <tr>
+                <td>hidden</td>
+                <td>隐藏域</td>
+            </tr>
+        </tbody>
+    </table>
+
+实例-1 文本框
+```
+<input  type="text"(文本框)  name="userName"(文本框名称) value="用户名"(文本框初始值) size="30"(文本框长度) maxlength="20"(文本框可输入最多字符) />
+```
+
+实例-2 密码框
+```
+<input  type="password "(密码框)  name="pass"(密码框的名称)  size="20"(密码框的长度) />
+```
+
+实例-3 单选按钮
+```
+<input name="gen" type="radio"(单选按钮框) value="男"(值)  checked(单选按钮选中状态)  />男
+<input name="gen" type="radio" value="女" />女
+```
+
+实例-4 复选框
+```
+<input type="checkbox"(复选框) name="interest" value="sports"(值)/>运动
+<input type="checkbox" name="interest" value="talk" checked(复选框选中状态) />聊天
+<input type="checkbox" name="interest" value="play"/>玩游戏
+```
+实例-5 按钮
+```
+<input type="reset" (重置按钮) name="butReset"  value="reset按钮"(按钮上显示的文字)>
+<input type="submit"(提交按钮) name="butSubmit" value="submit按钮">
+<input type="button"(普通按钮) name="butButton" value="button按钮"/>
+<input type="image"(图片按钮) src="images/login.gif"/(图片路径)>
+```
+
+实例-6 文件域
+```
+<form action="" method="post" enctype="multipart/form-data"（表单编码属性）>
+  <p><input type="file"(文件域) name="files" />
+  <input type="submit" name="upload" value="上传" /></p>
+</form>
+```
+
+实例-7 邮件 (会自动验证Email地址格式是否正确)
+```
+<p>邮箱:<input type="email"（邮箱）  name="email"/></p>
+<input type="submit"/>
+```
+
+实例-8 网址(会自动验证网址格式是否正确)
+```
+<p>请输入你的网址:<input type="url"（网址）  name="userUrl"/></p>
+<input type="submit"/>
+```
+
+实例-9 数字
+```
+<p>请输入数字:<input type="number"(数字)  name="num" min="0"(允许的最小值) max="100"(允许的最大值) step(合法的数字间隔)="10"/></p>
+<input type="submit"/>
+```
+
+实例-10 滑块
+```
+<p>请输入数字:<input type="range"(滑块)  name="range1" min="0"(允许的最小值) max="10"(允许的最大值) step(合法的数字间隔)="2"/></p>
+<input type="submit"/>
+```
+实例-11 搜索框
+```
+<p>请输入搜索的关键词:<input type="search"(搜索框)  name="sousuo"/></p>
+<input type="submit"/>
+```
+
+select和option 下拉菜单</br>
+实例
+```
+<select(列表框) name="列表名称" size="行数">
+<option value="选项的值" selected="selected"(默认选中项)>…</option >
+<option(选项) value="选项的值">…</option >
+</select>
+```
+
+textarea 文本域</br>
+
+实例
+```
+<textarea(多行文本域)  name="showText"  cols="x"(显示的列数)  rows="y"(显示的行数)>文本内容 </textarea  >
+```
