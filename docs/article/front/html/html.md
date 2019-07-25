@@ -127,3 +127,129 @@ name | 	application-name</br>author</br>description</br>generator</br>keywords</
   <p>这是一个在 div 元素中的文本。</p>
 </div>
 ```
+
+### 常见的行级标签
+
+#### 常见的行级标签
+
+span 文本 : 用于包裹一部分文字，进行特定样式的修改。</br>
+```
+小明真<span style="color:red; font-size:36px;">酷</span>！！
+```
+img 图片 </br>
+em 强调：浏览器显示为倾斜 </br>
+strong 强调：浏览器显示为加粗。 </br>
+q 短引用 </br>
+a 超链接 </br>
+i 倾斜 </br>
+b 加粗 </br>
+small 缩小字体 </br>
+u 下划线 </br>
+
+#### q
+　　标签定义一个短的引用。浏览器经常会在这种引用的周围插入引号。
+<table>
+        <tbody>
+            <tr>
+                <th>属性</th>
+                <th>值</th>
+                <th>描述</th>
+            </tr>
+            <tr>
+                <td>cite</td>
+                <td>URL</td>
+                <td>规定引用的源 URL。</td>
+            </tr>
+        </tbody>
+    </table>
+
+实例
+```
+<p>WWF's goal is to: 
+<q>Build a future where people live in harmony with nature.</q> 
+We hope they succeed.</p>
+```
+#### img
+　　标签用于展示 HTML 页面中的图像，使得页面能够“图文并茂”。img标签有两个必需的属性：src 和 alt。
+<table>   <tbody><tr>    <th>属性</th>    <th>值</th>    <th>描述</th>  </tr>  <tr>    <td>align</td>    <td>top<br>      bottom<br>      middle<br>      left<br>      right</td>    <td><span>HTML5 不支持。HTML 4.01 已废弃。</span>    规定如何根据周围的文本来排列图像。</td>      </tr>  <tr>    <td>alt</td>    <td><em>text</em></td>    <td>规定图像的替代文本。</td>  </tr>  <tr>    <td>border</td>    <td><em>pixels</em></td>    <td><span>HTML5 不支持。HTML 4.01 已废弃。</span>    规定图像周围的边框。</td>  </tr>      <tr>    <td>crossorigin</td>    <td>anonymous <br>use-credentials</td>    <td>设置图像的跨域属性</td>        </tr>      <tr>    <td>height</td>    <td><em>pixels</em></td>    <td>规定图像的高度。</td>        </tr>        <tr>    <td>hspace</td>    <td><em>pixels</em></td>    <td><span>HTML5 不支持。HTML 4.01 已废弃。</span>    规定图像左侧和右侧的空白。</td>        </tr>        <tr>    <td>ismap</td>    <td>ismap</td>    <td>将图像规定为服务器端图像映射。</td>        </tr>  <tr>    <td>longdesc</td>    <td><em>URL</em></td>    <td><span>HTML5 不支持。HTML 4.01 已废弃。</span>    指向包含长的图像描述文档的 URL。</td>  </tr>        <tr>    <td>src</td>    <td><em>URL</em></td>    <td>规定显示图像的 URL。</td>  </tr>        <tr>    <td>usemap</td>   <td><em>#mapname</em></td>    <td>将图像定义为客户器端图像映射。</td>        </tr>  <tr>    <td>vspace</td>    <td><em>pixels</em></td>    <td><span>HTML5 不支持。HTML 4.01 已废弃。</span>    规定图像顶部和底部的空白。</td>  </tr>  <tr>    <td>width</td>    <td><em>pixels</em></td>    <td>规定图像的宽度。</td>  </tr>  </tbody></table>
+实例
+
+```
+<img src="smiley.gif" alt="Smiley face" height="42" width="42">
+```
+### 表格标签
+
+#### table
+
+`<table></table>`表格框</br>
+`<tr></tr>`表格行</br>
+`<td></td>`表格列</br>
+`<th></th>` 表格标题列（将tr中的td替换为th)，th默认加粗且在单元格居中显示。
+
+#### table属性
+
+属性 | 值 |  描述  
+-|-|-
+align|left</br>center</br>right|HTML5 不支持。HTML 4.01 已废弃。 规定表格相对周围元素的对齐方式。
+bgcolor|	rgb(x,x,x)</br>#xxxxxx</br>colorname|HTML5 不支持。HTML 4.01 已废弃。 规定表格的背景颜色。
+border|	1</br>""|规定表格单元是否拥有边框。
+cellpadding	|pixels|	HTML5 不支持。规定单元边沿与其内容之间的空白。
+cellspacing	|pixels|	HTML5 不支持。规定单元格之间的空白。
+frame|	void</br>above</br>below</br>hsides</br>lhs</br>rhs</br>vsides</br>box</br>border|HTML5 不支持。规定外侧边框的哪个部分是可见的。
+rules|none</br>groups</br>rows</br>cols</br>all	|HTML5 不支持。规定内侧边框的哪个部分是可见的。
+summary	|text|	HTML5 不支持。规定表格的摘要。
+width|	pixels</br>%|HTML5 不支持。规定表格的宽度。
+
+实例-1 一个简单的 HTML 表格，包含两列两行：
+
+```
+<table border="1">
+<tr>
+<th>Month</th>
+<th>Savings</th>
+</tr>
+<tr>
+<td>January</td>
+<td>$100</td>
+</tr>
+</table>
+```
+
+#### table多列与多行
+跨列：colspan，某单元格跨N列，则该单元格右边的N-1个td就不需要了。
+跨行：rowspan，某单元格跨N行，则该单元格下边的N-1个td就不需要了。
+
+实例-2 表格单元横跨两列的表格
+
+```
+<table width="100%" border="1">
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td colspan="2">January</td>
+  </tr>
+  <tr>
+    <td colspan="2">February</td>
+  </tr>
+</table>
+```
+
+实例-3 表格单元竖跨两列的表格
+
+```
+<table border="1">
+  <tr>
+    <td rowspan="2">星期一</td>
+    <td>星期二</td>
+  </tr>
+  <tr>
+    <td>星期三</td>
+  </tr>
+</table>
+```
+
+### 表单标签
+
+[转HTML5表单_form](https://blog.csdn.net/know9163/article/details/80571529)
