@@ -6,7 +6,7 @@
 
 ## 🎦 前端
 
-- [html](article/front/html/html.md) </br>
+- [html](docs/article/front/html/html.md) </br>
 - [css]() </br>
 - [javascript]() </br>
 - [前端框架]()
@@ -30,7 +30,7 @@
 ## 🖥 操作系统
 
 - [操作系统原理]() </br>
-- [linux]()
+- [linux](docs/article/operatingSystem/linux/linux常用指令大全.md)
 
 ## 💻 计算机原理
 
