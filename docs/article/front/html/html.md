@@ -28,8 +28,8 @@
 -|-|-
 charset | character_set | 定义文档的字符编码。 |
 content | text | 定义与 http-equiv 或 name 属性相关的元信息。 |
-http-equiv | content-type</br>default-style</br>refresh | 把 content 属性关联到 HTTP 头部。 |
-name | 	application-name</br>author</br>description</br>generator</br>keywords</br> | 把 content 属性关联到一个名称。 |
+http-equiv | content-type<br>default-style<br>refresh | 把 content 属性关联到 HTTP 头部。 |
+name | 	application-name<br>author<br>description<br>generator<br>keywords<br> | 把 content 属性关联到一个名称。 |
 
 实例 1 - 定义文档关键词，用于搜索引擎：
 ```
@@ -75,11 +75,11 @@ name | 	application-name</br>author</br>description</br>generator</br>keywords</
 
 ### 常见的块级标签
 #### 常见的块级标签
-标题标签`<h1></h1>...<h6></h6>`</br>
-水平线`<hr/>`</br>
-段落`<p></p>`</br>
-换行`<br/>`</br>
-引用`<blockquote</blockquote>`</br>
+标题标签`<h1></h1>...<h6></h6>`<br>
+水平线`<hr/>`<br>
+段落`<p></p>`<br>
+换行`<br/>`<br>
+引用`<blockquote</blockquote>`<br>
 预格式`<pre></pre>` 可以保留您需要的文本格式，比如不会取消换行和空格，并且所示文本是等宽的。
 
 #### ol(order list)
@@ -132,19 +132,19 @@ name | 	application-name</br>author</br>description</br>generator</br>keywords</
 
 #### 常见的行级标签
 
-span 文本 : 用于包裹一部分文字，进行特定样式的修改。</br>
+span 文本 : 用于包裹一部分文字，进行特定样式的修改。<br>
 ```
 小明真<span style="color:red; font-size:36px;">酷</span>！！
 ```
-img 图片 </br>
-em 强调：浏览器显示为倾斜 </br>
-strong 强调：浏览器显示为加粗。 </br>
-q 短引用 </br>
-a 超链接 </br>
-i 倾斜 </br>
-b 加粗 </br>
-small 缩小字体 </br>
-u 下划线 </br>
+img 图片 <br>
+em 强调：浏览器显示为倾斜 <br>
+strong 强调：浏览器显示为加粗。 <br>
+q 短引用 <br>
+a 超链接 <br>
+i 倾斜 <br>
+b 加粗 <br>
+small 缩小字体 <br>
+u 下划线 <br>
 
 #### q
 　　标签定义一个短的引用。浏览器经常会在这种引用的周围插入引号。
@@ -181,24 +181,24 @@ We hope they succeed.</p>
 
 #### table
 
-`<table></table>`表格框</br>
-`<tr></tr>`表格行</br>
-`<td></td>`表格列</br>
+`<table></table>`表格框<br>
+`<tr></tr>`表格行<br>
+`<td></td>`表格列<br>
 `<th></th>` 表格标题列（将tr中的td替换为th)，th默认加粗且在单元格居中显示。
 
 #### table属性
 
 属性 | 值 |  描述  
 -|-|-
-align|left</br>center</br>right|HTML5 不支持。HTML 4.01 已废弃。 规定表格相对周围元素的对齐方式。
-bgcolor|	rgb(x,x,x)</br>#xxxxxx</br>colorname|HTML5 不支持。HTML 4.01 已废弃。 规定表格的背景颜色。
-border|	1</br>""|规定表格单元是否拥有边框。
+align|left<br>center<br>right|HTML5 不支持。HTML 4.01 已废弃。 规定表格相对周围元素的对齐方式。
+bgcolor|	rgb(x,x,x)<br>#xxxxxx<br>colorname|HTML5 不支持。HTML 4.01 已废弃。 规定表格的背景颜色。
+border|	1<br>""|规定表格单元是否拥有边框。
 cellpadding	|pixels|	HTML5 不支持。规定单元边沿与其内容之间的空白。
 cellspacing	|pixels|	HTML5 不支持。规定单元格之间的空白。
-frame|	void</br>above</br>below</br>hsides</br>lhs</br>rhs</br>vsides</br>box</br>border|HTML5 不支持。规定外侧边框的哪个部分是可见的。
-rules|none</br>groups</br>rows</br>cols</br>all	|HTML5 不支持。规定内侧边框的哪个部分是可见的。
+frame|	void<br>above<br>below<br>hsides<br>lhs<br>rhs<br>vsides<br>box<br>border|HTML5 不支持。规定外侧边框的哪个部分是可见的。
+rules|none<br>groups<br>rows<br>cols<br>all	|HTML5 不支持。规定内侧边框的哪个部分是可见的。
 summary	|text|	HTML5 不支持。规定表格的摘要。
-width|	pixels</br>%|HTML5 不支持。规定表格的宽度。
+width|	pixels<br>%|HTML5 不支持。规定表格的宽度。
 
 实例-1 一个简单的 HTML 表格，包含两列两行：
 
@@ -269,7 +269,7 @@ width|	pixels</br>%|HTML5 不支持。规定表格的宽度。
 
 #### 常用表单元素
 
-input 表单元素，表单项</br>
+input 表单元素，表单项<br>
 
 <table>
         <tbody>
@@ -389,7 +389,7 @@ input 表单元素，表单项</br>
 <input type="submit"/>
 ```
 
-select和option 下拉菜单</br>
+select和option 下拉菜单<br>
 实例
 ```
 <select(列表框) name="列表名称" size="行数">
@@ -398,7 +398,7 @@ select和option 下拉菜单</br>
 </select>
 ```
 
-textarea 文本域</br>
+textarea 文本域<br>
 
 实例
 ```
