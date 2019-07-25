@@ -1,7 +1,7 @@
 &nbsp;&nbsp;
 
 ## 📙 技术书签
-- [大神博客](docs/sarticle/bookmark/大神博客.md) </br>
+- [大神博客](docs/article/bookmark/大神博客.md) </br>
 - [技术教程](docs/article/bookmark/技术教程.md)
 
 ## 🎦 前端
