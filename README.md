@@ -15,7 +15,7 @@
 
 　　因文人技术水平及文本有限，该仓库主要是收集Java各种技术的教程、资源和经典文章，向读者进行经典教程、书籍、文章、视频和项目等方面推荐。另提供给Java程序员从基础到进阶的学习路径，帮助Java程序员成长。
 
-　　推荐使用http://coderzcr.gitee.io/senior-java在线阅读。gitee是国内网站，访问速度快。
+　　推荐使用[http://coderzcr.gitee.io/senior-java](http://coderzcr.gitee.io/senior-java)在线阅读。gitee是国内网站，访问速度快。
 
 # Java程序员从基础到进阶知识图谱
 
