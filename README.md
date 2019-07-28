@@ -6,10 +6,14 @@
 
 <p align="center">
   <a href="https://github.com/coderzcr/Senior-Java"><img src="https://badgen.net/github/stars/coderzcr/Senior-Java?icon=github&color=green" alt="star"></a>
-  <a href="http://coderzcr.gitee.io/senior-java/#/"><img src="https://img.shields.io/badge/阅读-read-green.svg" alt="阅读"></a>
-  <a href="#联系我"><img src="https://img.shields.io/badge/wechat-联系我-green.svg" alt="微信群"></a>
-  <a href="#公众号"><img src="https://img.shields.io/badge/公众号-coderzhang-green.svg" alt="公众号"></a>
+  <a href="http://coderzcr.gitee.io/senior-java/#/"><img src="https://img.shields.io/badge/阅读-read-brightgreen.svg" alt="阅读"></a>
+  <a href="#联系我"><img src="https://img.shields.io/badge/wechat-联系我-brightgreen.svg" alt="微信群"></a>
+  <a href="#公众号"><img src="https://img.shields.io/badge/公众号-coderzhang-brightgreen.svg" alt="公众号"></a>
 </p>
+
+　　**项目初期，大部分还未进行整理，该仓库会持续更新，望star一下或关注公众号，第一时间了解更新**
+　　因文人技术水平及文本有限，该仓库主要是收集Java各种技术的教程、资源和经典文章，向读者进行经典教程、书籍、文章、视频和项目等方面推荐。另提供给Java程序员从基础到进阶的学习路径，帮助Java程序员成长。
+　　推荐使用http://coderzcr.gitee.io/senior-java/#/在线阅读。gitee是国内网站，访问速度快。
 
 # Java程序员从基础到进阶知识图谱
 
@@ -84,7 +88,7 @@
 ## 说明
 
 ### 介绍
-　　**项目初期，大部分还未进行整理，该仓库会持续更新，往star一下或关注公众号，第一时间了解更新**
+　　**项目初期，大部分还未进行整理，该仓库会持续更新，望star一下或关注公众号，第一时间了解更新**
 　　因文人技术水平及文本有限，该仓库主要是收集Java各种技术的教程、资源和经典文章，向读者进行经典教程、书籍、文章、视频和项目等方面推荐。另提供给Java程序员从基础到进阶的学习路径，帮助Java程序员成长。
 
 ### 为什么
