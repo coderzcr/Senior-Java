@@ -1,75 +1,69 @@
 &nbsp;&nbsp;
 
-## 📙 技术书签
-- [大神博客](article/bookmark/大神博客.md) </br>
-- [技术教程](article/bookmark/技术教程.md)
+# Java程序员从基础到进阶知识图谱
+![Java程序员从基础到进阶知识图谱](docs/pictures/public/Java程序员从基础到进阶知识图谱.png)
 
-## 🎦 前端
-
-- [html](article/front/html.md) </br>
-- [css](article/front/css.md) </br>
-- [javascript](article/front/javascript.md) </br>
-- [html dom](article/front/htmlDom.md) </br>
-- [json](article/front/json.md) </br>
-- [ajax](article/front/ajax.md) </br>
-- [jquery](article/front/jquery.md) </br>
-- [bootstrap](article/front/bootstrap.md) </br>
-- [vue.js](article/front/vue.js.md) </br>
-- [webpack](article/front/webpack.md) </br>
-- [chartjs](article/front/chartjs.md)
-
-## 🌳 Java
-
-- [Java 基础]() </br>
-- [Java 集合]() </br>
-- [Java 多线程]() </br>
-- [Java I/O]() </br>
-- [Java 反射]() </br> 
-- [Java 虚拟机]() </br> 
-- [Java 源码分析]() </br> 
-- [Java 常用框架]() 
-
-## 😱 算法与数据结构
-
-- [数据结构]() </br>
-- [常用算法]() 
-
-## 🖥 操作系统
-
-- [操作系统原理]() </br>
-- [linux](article/operatingSystem/linux/linux常用指令大全.md)
-
-## 💻 计算机原理
-
-- [计算机原理]() 
-
-## ☁️ 计算机网络
-
-- [计算机网络]() </br>
-- [HTTP]() 
-
-## 🎨 设计模式
-
-- [设计模式]() 
-
+## 💻 常用知识
+- [数据结构与算法]()
+- [计算机网络]()
+- [操作系统]()
+- [计算机原理]()
+- [网络安全]()
+- [设计模式]()
 
 ## 💾 数据库
+- [数据库原理]()
+- [关系型数据库]()
+- [非关系型数据库]()
 
-- [数据库原理]() </br>
-- [mysql]() </br>
-- [oracle]() </br>
-- [redis]()
+## 🎦 前端基础
 
-## 📖 架构设计
+- [html](article/front/html.md)
+- [css](article/front/css.md)
+- [javascript](article/front/javascript.md)
+- [html dom](article/front/htmlDom.md)
+- [json](article/front/json.md)
+- [ajax](article/front/ajax.md)
+- [jquery](article/front/jquery.md)
+- [bootstrap](article/front/bootstrap.md)
+- [vue.js](article/front/vue.js.md)
+- [webpack](article/front/webpack.md)
+- [chartjs](article/front/chartjs.md)
 
-- [架构设计基础]() </br>
+## 🎨 Java
+- [Java基础]()
+- [Java集合]()
+- [Java并发]()
+- [Java I/O]()
+- [Java反射]()
+- [Java JVM]()
+- [Java 源码阅读]()
+- [Java Web]()
+- [性能优化]()
+- [问题分析]()
 
 ## 💼 常用工具
-
-- [git]() </br>
-- [docker]() </br>
-- [svn]() </br>
+- [svn]()
+- [git]()
+- [docker]()
 - [maven]()
+- [gradle]()
+- [正则表达式]()
 
+## 📖 架构设计
+- [高性能架构]()
+- [高可用架构]()
+- [分布式架构]()
+- [微服务架构]()
 
+## ☁️ 扩展
+- [Python]()
+- [大数据]()
+- [区块链]()
+- [人工智能]()
+- [云计算]()
+- [软考相关]()
 
+## 📙 技术书签
+- [大神博客](article/bookmark/大神博客.md)
+- [技术教程](article/bookmark/技术教程.md)
