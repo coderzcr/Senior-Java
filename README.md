@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/coderzcr/Senior-Java"><img src="https://badgen.net/github/stars/coderzcr/coderzcr?icon=github&color=4ab8a1" alt="star"></a>
+  <a href="https://github.com/coderzcr/Senior-Java"><img src="https://badgen.net/github/stars/coderzcr/Senior-Java?icon=github&color=0366d6" alt="star"></a>
   <a href="http://coderzcr.gitee.io/senior-java/#/"><img src="https://img.shields.io/badge/阅读-read-brightgreen.svg" alt="阅读"></a>
   <a href="#联系我"><img src="https://img.shields.io/badge/chat-微信群-blue.svg" alt="微信群"></a>
   <a href="#公众号"><img src="https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-JavaGuide-lightgrey.svg" alt="公众号"></a>
