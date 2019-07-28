@@ -10,13 +10,13 @@
 
 ## 推荐书籍
 
-- Head First HTML与CSS（第2版）。headfirst系列，经典入门书籍！
+- Head First HTML与CSS（第2版）。最好的入门书。看两遍就对HTML和CSS有个大概印象了。
 
 <img src="html/pics/s28988547.jpg" alt="HTML5 Programming（中文版）"  width="135" height="200">
 
 
 ## 推荐文章
 
-- [html标签列表，适合查阅迷糊点](http://www.w3school.com.cn/tags/html_ref_byfunc.asp)
+- [w3school备查手册，适合随时查询知识点](http://www.w3school.com.cn/tags/html_ref_byfunc.asp)
 
 
