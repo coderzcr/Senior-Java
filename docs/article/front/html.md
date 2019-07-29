@@ -3,6 +3,7 @@
 ## 推荐教程
 - [how2j html教程，通俗易懂，适合入门](http://how2j.cn/k/html/html-tutorial/175.html)
 - [w3school html教程，知识点全面，包含html、xhtml、html5](http://www.w3school.com.cn/html/index.asp)
+- [FreeCodeCamp，专门为零基础准备的学习路径，和游戏类似，采用闯关模式，娱乐中学习了知识](freecodecamp.cn/)
 
 ## 作者原创
 
