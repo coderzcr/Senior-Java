@@ -1,5 +1,5 @@
 ## 知识图谱
-![html思维导图](http://coderzcr.gitee.io/sensor-java-picture/pictures/html思维导图.png)
+![html思维导图](html/pics/html思维导图.png)
 ## 推荐教程
 - [how2j html教程，通俗易懂，适合入门](http://how2j.cn/k/html/html-tutorial/175.html)
 - [w3school html教程，知识点全面，包含html、xhtml、html5](http://www.w3school.com.cn/html/index.asp)
@@ -13,7 +13,7 @@
 
 - Head First HTML与CSS（第2版）。最好的入门书。看两遍就对HTML和CSS有个大概印象了。
 
-<img src="http://coderzcr.gitee.io/sensor-java-picture/pictures/s28988547.jpg" alt="HTML5 Programming（中文版）"  width="135" height="200">
+<img src="article/front/html/pics/s28988547.jpg" alt="HTML5 Programming（中文版）"  width="135" height="200">
 
 
 ## 推荐文章
@@ -30,4 +30,6 @@
 ## 公众号
 
 ![公众号](http://coderzcr.gitee.io/sensor-java-picture/pictures/稿定设计导出-20190728-180717.png)
+
+
 
