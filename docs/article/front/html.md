@@ -29,7 +29,7 @@
 
 ## 公众号
 
-![公众号](http://coderzcr.gitee.io/sensor-java-picture/pictures/稿定设计导出-20190728-180717.png)
+<img src="http://coderzcr.gitee.io/sensor-java-picture/pictures/稿定设计导出-20190728-180717.png" height="200" alt="公众号" />
 
 
 
