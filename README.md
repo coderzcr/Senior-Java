@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://github.com/coderzcr/Senior-Java" target="_blank">
-	<img src="docs/pictures/public/zcr's blog.png" width=""/>
+	<img src="http://coderzcr.gitee.io/sensor-java-picture/pictures/zcr's blog.png" width=""/>
 </a>
 </p>
 
@@ -20,7 +20,7 @@
 # Java程序员从基础到进阶知识图谱
 
 　　本图谱参考[fullstack-tutorial](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/SkillTree/backend-skill.md)、[toBeTopJavaer](https://github.com/hollischuang/toBeTopJavaer/blob/master/mind-map.md)、[advanced-java](https://github.com/doocs/advanced-java)三位大神所作仓库，结合自己的理解完成。
-![Java程序员从基础到进阶知识图谱](docs/pictures/public/Java程序员从基础到进阶知识图谱.png)
+![Java程序员从基础到进阶知识图谱](http://coderzcr.gitee.io/sensor-java-picture/pictures/Java程序员从基础到进阶知识图谱.png)
 
 ## 💻 常用知识
 - [数据结构与算法]()
@@ -105,6 +105,6 @@
 
 ### 公众号
 
-![公众号](docs/pictures/public/稿定设计导出-20190728-180717.png)
+![公众号](http://coderzcr.gitee.io/sensor-java-picture/pictures/稿定设计导出-20190728-180717.png)
 
 

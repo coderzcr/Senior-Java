@@ -1,4 +1,4 @@
-<img width="220px" src="pictures/public/zcr's blog.png">
+<img width="220px" src="http://coderzcr.gitee.io/sensor-java-picture/pictures/zcr's blog.png">
 
 
 - 本项目包含了技术面试必备的基础知识，内容浅显易懂，你不需要花很长的时间去阅读和理解成堆的技术书籍就可以快速掌握这些知识，从而节省宝贵的面试复习时间。
