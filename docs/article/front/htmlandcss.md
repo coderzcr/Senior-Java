@@ -30,6 +30,7 @@
 - CSS权威指南。任何一个前端的必读书单里都会有这本书
 
 <img src="http://coderzcr.gitee.io/sensor-java-picture/pictures/s2921314.jpg" alt="CSS权威指南"  width="135" height="200">
+
 - 精通CSS。知识点、例子透彻，但翻译不敢恭维，建议看英文版
 
 <img src="http://coderzcr.gitee.io/sensor-java-picture/pictures/s29054660.jpg" alt="精通CSS"  width="135" height="200">
