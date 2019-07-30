@@ -7,6 +7,9 @@
 <p align="center">
   <a href="https://github.com/coderzcr/Senior-Java"><img src="https://badgen.net/github/stars/coderzcr/Senior-Java?icon=github&color=green" alt="star"></a>
   <a href="http://coderzcr.gitee.io/senior-java/#/"><img src="https://img.shields.io/badge/阅读-read-brightgreen.svg" alt="阅读"></a>
+  <a href="https://gitee.com/coderzcr/Senior-Java"><img src="https://img.shields.io/badge/gitee-coderzcr-brightgreen.svg" alt="码云"></a>
+  <a href="https://coding.net/u/coderzcr/p/Senior-Java/git"><img src="https://img.shields.io/badge/coding-coderzcr-brightgreen.svg" alt="coding"></a>
+  <a href="https://github.com/coderzcr/Senior-Java"><img src="https://img.shields.io/badge/github-coderzcr-brightgreen.svg" alt="github"></a>
   <a href="#联系我"><img src="https://img.shields.io/badge/wechat-联系我-brightgreen.svg" alt="微信群"></a>
   <a href="#公众号"><img src="https://img.shields.io/badge/公众号-coderzhang-brightgreen.svg" alt="公众号"></a>
 </p>
