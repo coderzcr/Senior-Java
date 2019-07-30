@@ -40,8 +40,7 @@
 
 ## 🎦 前端基础
 
-- [html](docs/article/front/html&&css.md)
-- [css](docs/article/front/css.md)
+- [html&css](docs/article/front/html&&css.md)
 - [javascript](docs/article/front/javascript.md)
 - [html dom](docs/article/front/htmlDom.md)
 - [json](docs/article/front/json.md)
