@@ -11,6 +11,7 @@
 ### 结合
 
 - [FreeCodeCamp，专门为零基础准备的学习路径，和游戏类似，采用闯关模式，娱乐中学习了知识](http://freecodecamp.cn/)
+- [慕课视频教程，从最基本的概念开始讲起，步步深入](http://www.imooc.com/learn/9)
 
 ## 作者原创
 
