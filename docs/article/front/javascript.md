@@ -28,7 +28,7 @@
 
 <img src="http://coderzcr.gitee.io/sensor-java-picture/pictures/s4538004.jpg" alt="Head First HTML与CSS"  width="135" height="200">
 
--JavaScript DOM高级程序设计。内功修炼必备，教你编写一个类似JQuery的额工具函数库。
+- JavaScript DOM高级程序设计。内功修炼必备，教你编写一个类似JQuery的额工具函数库。
 
 <img src="http://coderzcr.gitee.io/sensor-java-picture/pictures/s3103215.jpg" alt="Head First HTML与CSS"  width="135" height="200">
 
