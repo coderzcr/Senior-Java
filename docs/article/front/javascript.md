@@ -2,6 +2,8 @@
 
 ## 推荐教程
 
+- [JavaScript入门到精通_慕课网,视频教程，包含多个教程，从入门到进阶。适合无法深入阅读人群](https://www.imooc.com/topic/javascript)
+
 - [推荐how2j的教程，该教程比较通俗易懂。](http://how2j.cn/k/javascript/javascript-javascript-tutorial/519.html)
 
 - [The Modern JavaScript Tutorial(中文版)，从基础到深入全覆盖](https://zh.javascript.info/)
@@ -9,6 +11,8 @@
 - [The Modern JavaScript Tutorial(英文版)，从基础到深入全覆盖，英文水平较高的推荐](https://javascript.info/)
 
 - [JavaScript|MDN,初级中级高级全覆盖](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
+
+- [JavaScript教程。 廖雪峰的官方网站。JavaScript全栈教程，在线免费学习，而且读者多，从留言中可以看到读者参考教程做的网页](https://www.liaoxuefeng.com/wiki/1022910821149312)
 
 ## 推荐书籍
 
@@ -34,6 +38,7 @@
 
 
 ## 推荐文章
+
 
 ## 联系我
 
