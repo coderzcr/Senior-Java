@@ -4,11 +4,11 @@
 ## 推荐教程
 
 ### html
-- [how2j html教程，通俗易懂并有示范代码帮助理解，代码可下载，适合入门](http://how2j.cn/k/html/html-tutorial/175.html)
+- [how2j html教程，通俗易懂并有示范代码帮助理解，代码可下载，仅适合入门](http://how2j.cn/k/html/html-tutorial/175.html)
 - [w3school html教程，知识点全面，包含html、xhtml、html5](http://www.w3school.com.cn/html/index.asp)
 
 ### css
-- [how2j css教程，通俗易懂并有示范代码帮助理解，代码可下载，适合入门](http://how2j.cn/k/html/html-tutorial/175.html)
+- [how2j css教程，通俗易懂并有示范代码帮助理解，代码可下载，仅适合入门](http://how2j.cn/k/html/html-tutorial/175.html)
 - [CSS 菜鸟教程](https://www.runoob.com/css/css-tutorial.html)
 - [CSS3 菜鸟教程](https://www.runoob.com/css3/css3-tutorial.html)
 - [如何用CSS进行网页布局 慕课视频教程](http://www.imooc.com/learn/57)
@@ -43,6 +43,9 @@
 - [w3school备查手册，适合随时查询知识点](http://www.w3school.com.cn/tags/html_ref_byfunc.asp)
 
 ### css
+
+- [CSS选择器笔记(阮一峰)](http://www.ruanyifeng.com/blog/2009/03/css_selectors.html)
+- [CSS 的优先级机制](https://www.cnblogs.com/xugang/archive/2010/09/24/1833760.html)
 
 ### 综合
 
