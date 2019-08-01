@@ -4,9 +4,9 @@
 
 - [推荐how2j的教程，该教程比较通俗易懂。](http://how2j.cn/k/javascript/javascript-javascript-tutorial/519.html)
 
-- [The Modern JavaScript Tutorial(中文版)，从基础到深入全覆盖]（https://zh.javascript.info/）
+- [The Modern JavaScript Tutorial(中文版)，从基础到深入全覆盖](https://zh.javascript.info/)
 
-- [The Modern JavaScript Tutorial(英文版)，从基础到深入全覆盖，英文水平较高的推荐]（https://javascript.info/）
+- [The Modern JavaScript Tutorial(英文版)，从基础到深入全覆盖，英文水平较高的推荐](https://javascript.info/)
 
 - [JavaScript|MDN,初级中级高级全覆盖](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
 
