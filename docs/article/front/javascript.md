@@ -45,6 +45,8 @@
 
 - [每个 JavaScript 工程师都应懂的33个概念](https://github.com/stephentian/33-js-concepts)
 - [每个 JavaScript 工程师都应懂的33个概念(英文版) 毕竟翻译有瑕疵，建议英文能力强的阅读](https://github.com/leonardomso/33-js-concepts)
+- [javascript AJAX](https://www.kancloud.cn/dennis/tgjavascript/241825)
+- [JavaScript JSON的总结](https://zhuanlan.zhihu.com/p/26793408)
 
 ## 面试
 
