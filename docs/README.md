@@ -20,7 +20,6 @@
 
 - [html&&css](article/front/htmlandcss.md)
 - [javascript](article/front/javascript.md)
-- [html dom](article/front/htmlDom.md)
 - [json](article/front/json.md)
 - [ajax](article/front/ajax.md)
 - [jquery](article/front/jquery.md)

@@ -46,7 +46,6 @@
 
 - [html&css](docs/article/front/htmlandcss.md)
 - [javascript](docs/article/front/javascript.md)
-- [html dom](docs/article/front/htmlDom.md)
 - [json](docs/article/front/json.md)
 - [ajax](docs/article/front/ajax.md)
 - [jquery](docs/article/front/jquery.md)
