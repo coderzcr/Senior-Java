@@ -50,7 +50,7 @@
 
 ## 面试
 
-- [前端面试指导 JS部分](https://yuchengkai.cn/docs/frontend/)
+- [前端面试之道 JS部分](https://yuchengkai.cn/docs/frontend/)
 
 
 ## 联系我
