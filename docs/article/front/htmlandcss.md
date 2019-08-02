@@ -47,6 +47,7 @@
 - [CSS选择器笔记(阮一峰)](http://www.ruanyifeng.com/blog/2009/03/css_selectors.html)
 - [CSS 的优先级机制](https://www.cnblogs.com/xugang/archive/2010/09/24/1833760.html)
 - [css-animation-101,github star 3k+,一本开源的 CSS 动画书籍，教你如何在 Web 项目中用好 CSS 动画](https://github.com/cssanimation/css-animation-101)
+- [animate.css,github star 61k! ,拥有 50 多种 CSS3 酷炫动画效果库]()
 
 ### 综合
 
