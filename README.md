@@ -46,8 +46,6 @@
 
 - [html&css](docs/article/front/htmlandcss.md)
 - [javascript](docs/article/front/javascript.md)
-- [json](docs/article/front/json.md)
-- [ajax](docs/article/front/ajax.md)
 - [jquery](docs/article/front/jquery.md)
 - [bootstrap](docs/article/front/bootstrap.md)
 - [vue.js](docs/article/front/vue.js.md)
