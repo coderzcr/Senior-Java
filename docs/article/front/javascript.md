@@ -1,5 +1,9 @@
 ## 知识图谱
 
+![JavaScript知识图谱](http://coderzcr.gitee.io/sensor-java-picture/pictures/JavaScript知识图谱.png)
+
+[更详细的推荐:W3Cschool JavaScript 知识图谱](https://www.w3cschool.cn/javascript/javascript-skillmap.html)
+
 ## 推荐教程
 
 - [JavaScript入门到精通_慕课网,视频教程，包含多个教程，从入门到进阶。适合无法深入阅读人群](https://www.imooc.com/topic/javascript)
@@ -38,6 +42,13 @@
 
 
 ## 推荐文章
+
+- [每个 JavaScript 工程师都应懂的33个概念](https://github.com/stephentian/33-js-concepts)
+- [每个 JavaScript 工程师都应懂的33个概念(英文版) 比较翻译有瑕疵，建议英文能力强的阅读](https://github.com/leonardomso/33-js-concepts)
+
+## 面试
+
+- [前端面试指导 JS部分](https://yuchengkai.cn/docs/frontend/)
 
 
 ## 联系我

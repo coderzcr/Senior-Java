@@ -20,6 +20,10 @@
 
 　　若github加载速度慢，请访问gitee或者coding。推荐使用[http://coderzcr.gitee.io/senior-java](http://coderzcr.gitee.io/senior-java)在线阅读，该页面通过docsify生成，更适合阅读。
 
+# 阅读
+
+[线上版本阅读更清晰](http://coderzcr.gitee.io/senior-java/#/)
+
 # Java程序员从基础到进阶知识图谱
 
 　　本图谱参考[fullstack-tutorial](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/SkillTree/backend-skill.md)、[toBeTopJavaer](https://github.com/hollischuang/toBeTopJavaer/blob/master/mind-map.md)、[advanced-java](https://github.com/doocs/advanced-java)三位大神所作仓库，结合自己的理解完成。
