@@ -22,6 +22,10 @@
 
 - [前端进阶系列](https://github.com/yygmind/blog)
 
+- [JavaScript深入系列 15 篇已完结 冴羽的博客](https://github.com/mqyqingfeng/Blog#%E6%B7%B1%E5%85%A5%E7%B3%BB%E5%88%97%E7%9B%AE%E5%BD%95)
+
+- [JavaScript专题系列 20 篇已完结 冴羽的博客](https://github.com/mqyqingfeng/Blog#%E4%B8%93%E9%A2%98%E7%B3%BB%E5%88%97%E7%9B%AE%E5%BD%95)
+
 ## 推荐书籍
 
 - JavaScript DOM编程艺术。入门经典书，看完对js就有了基本的认识。全书围绕一个网页实例展开，逐步深入。
