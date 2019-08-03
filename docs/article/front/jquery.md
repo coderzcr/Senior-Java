@@ -1,5 +1,7 @@
 ## 知识图谱
 
+![jQuery知识图谱](http://coderzcr.gitee.io/sensor-java-picture/pictures/jQuery知识图谱.png)
+
 ## 推荐教程
 
 - [jQuery官方教程，英语基础好的首推教程](https://learn.jquery.com/)
