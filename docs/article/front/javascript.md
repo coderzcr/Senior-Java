@@ -18,6 +18,8 @@
 
 - [JavaScript教程。 廖雪峰的官方网站。JavaScript全栈教程，在线免费学习，而且读者多，从留言中可以看到读者参考教程做的网页](https://www.liaoxuefeng.com/wiki/1022910821149312)
 
+- [javascript-algorithms JavaScript 算法与数据结构,github 52k,多个语言版本，英文好就看英文](https://github.com/trekhleb/javascript-algorithms)
+
 ## 推荐书籍
 
 - JavaScript DOM编程艺术。入门经典书，看完对js就有了基本的认识。全书围绕一个网页实例展开，逐步深入。
@@ -51,6 +53,8 @@
 ## 面试
 
 - [前端面试之道 JS部分](https://yuchengkai.cn/docs/frontend/)
+- [JavaScript 进阶问题列表 从基础到进阶，测试你有多了解 JavaScript，刷新你的知识，或者帮助你的 coding 面试！](https://github.com/lydiahallie/javascript-questions/blob/master/README-zh_CN.md)
+- [前端面试JS 相关问题](https://github.com/paddingme/Front-end-Web-Development-Interview-Question/blob/master/questions/7.md)
 
 
 ## 联系我

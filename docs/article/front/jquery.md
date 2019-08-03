@@ -29,6 +29,10 @@
 - [jQuery设计思想 阮一峰](http://www.ruanyifeng.com/blog/2011/07/jquery_fundamentals.html)
 - [jQuery最佳实践 阮一峰](http://www.ruanyifeng.com/blog/2011/08/jquery_best_practices.html)
 
+## 面试
+
+- [前端面试jQuery 相关问题](https://github.com/h5bp/Front-end-Developer-Interview-Questions#jquery)
+
 ## 联系我
 
 　　因涉及技术众多，且本人技术有限，不免有纰漏之处。若**有错误或者有推荐的经典教程、书籍、文章、视频和项目**，请联系我！以下个人微信号，添加我的微信备注“Senior-Java”。
