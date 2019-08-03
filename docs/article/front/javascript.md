@@ -20,6 +20,8 @@
 
 - [javascript-algorithms JavaScript 算法与数据结构,github 52k,多个语言版本，英文好就看英文](https://github.com/trekhleb/javascript-algorithms)
 
+- [前端进阶系列](https://github.com/yygmind/blog)
+
 ## 推荐书籍
 
 - JavaScript DOM编程艺术。入门经典书，看完对js就有了基本的认识。全书围绕一个网页实例展开，逐步深入。
