@@ -44,13 +44,12 @@
 
 ## 🎦 前端基础
 
+- [大前端完整学习路线](http://www.codepoet.cn/%E5%A4%A7%E5%89%8D%E7%AB%AF%E5%AE%8C%E6%95%B4%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/)
 - [html&css](docs/article/front/htmlandcss.md)
 - [javascript](docs/article/front/javascript.md)
 - [jquery](docs/article/front/jquery.md)
 - [bootstrap](docs/article/front/bootstrap.md)
 - [vue.js](docs/article/front/vue.js.md)
-- [webpack](docs/article/front/webpack.md)
-- [chartjs](docs/article/front/chartjs.md)
 
 ## 🎨 Java
 - [Java基础]()

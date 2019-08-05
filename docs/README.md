@@ -12,19 +12,20 @@
 - [设计模式]()
 
 ## 💾 数据库
+
 - [数据库原理]()
 - [关系型数据库]()
 - [非关系型数据库]()
 
 ## 🎦 前端基础
 
+- [大前端完整学习路线](http://www.codepoet.cn/%E5%A4%A7%E5%89%8D%E7%AB%AF%E5%AE%8C%E6%95%B4%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/)
 - [html&&css](article/front/htmlandcss.md)
 - [javascript](article/front/javascript.md)
 - [jquery](article/front/jquery.md)
 - [bootstrap](article/front/bootstrap.md)
 - [vue.js](article/front/vue.js.md)
-- [webpack](article/front/webpack.md)
-- [chartjs](article/front/chartjs.md)
+
 
 ## 🎨 Java
 - [Java基础]()
