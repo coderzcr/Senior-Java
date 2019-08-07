@@ -1,3 +1,4 @@
+&nbsp;&nbsp;
 ## 推荐教程
 
 - [网易云课堂数据结构和算法视频教程 小甲鱼系列](https://study.163.com/course/introduction.htm?courseId=468002&_trace_c_p_k2_=be1bfa4e3fb5408db9be27f051436ff2#/courseMain)
@@ -7,7 +8,6 @@
 - Robert Sedgewick 算法视频教程，缺点是纯英文，把算法以动画的形式展现出来，非常适合新手，分为上下两部
   [上部](https://www.coursera.org/learn/algorithms-part1)
   [下部](https://www.coursera.org/learn/algorithms-part2)
-
 
 ## 推荐书籍
 
@@ -57,3 +57,14 @@
 - [用动画的形式呈现解LeetCode题目的思路,github 37.1k](https://github.com/MisterBooo/LeetCodeAnimation)
 - [牛客网，有很多题型，各年的校招真题系列、剑指offer、华为机试等](https://www.nowcoder.com/activity/oj)
 
+
+## 联系我
+
+　　因涉及技术众多，且本人技术有限，不免有纰漏之处。若**有错误或者有推荐的经典教程、书籍、文章、视频和项目**，请联系我！以下个人微信号，添加我的微信备注“Senior-Java”。
+
+<img src="http://coderzcr.gitee.io/sensor-java-picture/pictures/mmqrcode1564277983207.png" width="200" alt="个人微信号" />
+
+
+## 公众号
+
+<img src="http://coderzcr.gitee.io/sensor-java-picture/pictures/稿定设计导出-20190728-180717.png" height="200" alt="公众号" />
