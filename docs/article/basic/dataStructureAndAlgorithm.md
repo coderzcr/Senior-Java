@@ -8,6 +8,9 @@
 - Robert Sedgewick 算法视频教程，缺点是纯英文，把算法以动画的形式展现出来，非常适合新手，分为上下两部
   [上部](https://www.coursera.org/learn/algorithms-part1)
   [下部](https://www.coursera.org/learn/algorithms-part2)
+- [十大经典排序算法 文字教程](https://github.com/hustcc/JS-Sorting-Algorithm)
+- [数据结构与算法系列 目录 文字教程](https://www.cnblogs.com/skywang12345/p/3603935.html)
+- [看图轻松理解数据结构与算法 文字教程](http://cmsblogs.com/?p=4675)
 
 ## 推荐书籍
 
