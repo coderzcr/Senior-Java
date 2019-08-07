@@ -16,6 +16,11 @@
 
 ### 入门
 
+- 漫画算法：小灰的算法之旅。 程序员菜鸟小灰各种理由请假面试，大鸟大黄各种讲解。通过漫画的形式讲解了基础算法，非常适合入门。
+
+<img src="http://coderzcr.gitee.io/sensor-java-picture/pictures/s32299271.jpg" alt="漫画算法：小灰的算法之旅"  width="135" height="200">
+
+
 - 算法图解。本书示例丰富，图文并茂，含有400多个示意图，以简明易懂的方式阐释了算法。代码基于Python。
 
 <img src="http://coderzcr.gitee.io/sensor-java-picture/pictures/s29358625.jpg" alt="算法图解"  width="135" height="200">
