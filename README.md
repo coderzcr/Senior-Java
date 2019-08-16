@@ -32,7 +32,7 @@
 
 ## 💻 常用知识
 - [数据结构与算法](docs/article/basic/dataStructureAndAlgorithm.md)
-- [计算机网络]()
+- [计算机网络](docs/article/basic/network.md)
 - [操作系统]()
 - [计算机原理](docs/article/basic/principlesOfComputer.md)
 - [网络安全]()
