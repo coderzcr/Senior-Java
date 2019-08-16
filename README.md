@@ -88,8 +88,9 @@
 
 ## 📙 技术书签
 
-- [大神博客](article/bookmark/大神博客.md)
-- [技术教程](article/bookmark/技术教程.md)
+- [大神博客](docs/article/bookmark/大神博客.md)
+- [技术教程](docs/article/bookmark/技术教程.md)
+- [开发工具](docs/article/bookmark/开发工具.md)
 
 ## 说明
 
