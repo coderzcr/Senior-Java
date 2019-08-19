@@ -29,6 +29,7 @@
 - [互联网协议入门（一） 阮一峰](http://www.ruanyifeng.com/blog/2012/05/internet_protocol_suite_part_i.html)
 - [互联网协议入门（二） 阮一峰](http://www.ruanyifeng.com/blog/2012/06/internet_protocol_suite_part_ii.html)
 - [鸟哥的linux私房菜 第二章、基础网络概念](http://cn.linux.vbird.org/linux_server/0110network_basic.php)
+- [网络编程懒人入门系列 阮一峰](http://www.52im.net/thread-1095-1-1.html)
 
 ## 联系我
 
