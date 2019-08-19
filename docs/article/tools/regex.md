@@ -2,7 +2,7 @@
 
 ## 推荐教程
 
-- [learn-regex 【Github 24K】(https://github.com/ziishaned/learn-regex/blob/master/translations/README-cn.md)
+- [learn-regex 【Github 24K】](https://github.com/ziishaned/learn-regex/blob/master/translations/README-cn.md)
 
 
 ## 推荐书籍
