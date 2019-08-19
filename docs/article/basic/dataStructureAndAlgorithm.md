@@ -63,6 +63,7 @@
 - [leetcode中文版](https://leetcode-cn.com/?utm_source=LCUS&utm_medium=banner_redirect&utm_campaign=transfer2china)
 - [leetcode英文版，英文功底好的首推，还能学习英文](https://leetcode.com/)
 - [用动画的形式呈现解LeetCode题目的思路,github 37.1k](https://github.com/MisterBooo/LeetCodeAnimation)
+- [LeetCode 的解题代码和中文讲解。【Github】](https://github.com/grandyang/leetcode/blob/master/README-CN.md)
 - [牛客网，有很多题型，各年的校招真题系列、剑指offer、华为机试等](https://www.nowcoder.com/activity/oj)
 
 ### 推荐文章
