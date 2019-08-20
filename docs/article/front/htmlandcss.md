@@ -16,7 +16,8 @@
 ### 综合
 - [FreeCodeCamp，专门为零基础准备的学习路径，和游戏类似，采用闯关模式，娱乐中学习了知识](http://freecodecamp.cn/)
 - [初识HTML+CSS 慕课视频教程，从最基本的概念开始讲起，步步深入](http://www.imooc.com/learn/9)
-- [视频教程 极简博客开发 - 表严肃HTML&CSS实战](https://biaoyansu.com/10.x)
+- [视频教程 极简博客开发 - 表严肃HTML&CSS实战](https://biaoyansu.com/10.x),代码下载地址为[https://github.com/biaoyansu/10.x](https://github.com/biaoyansu/10.x)。
+- [视频教程 电商站首页布局 - HTML&CSS实战](https://biaoyansu.com/11.x),代码下载地址为[https://github.com/biaoyansu/10.x](https://github.com/biaoyansu/11.x)。
 
 ## 作者原创
 
