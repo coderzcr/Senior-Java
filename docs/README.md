@@ -19,7 +19,8 @@
 
 ## 🎦 前端基础
 
-- [大前端完整学习路线](http://www.codepoet.cn/%E5%A4%A7%E5%89%8D%E7%AB%AF%E5%AE%8C%E6%95%B4%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/)
+- [GitHub最全的前端资源汇总仓库（包括前端学习、开发资源、求职面试等)](https://github.com/helloqingfeng/Awsome-Front-End-learning-resource)
+- [前端学习路径](https://zhuanlan.zhihu.com/p/21935921)
 - [html&&css](article/front/htmlandcss.md)
 - [javascript](article/front/javascript.md)
 - [jquery](article/front/jquery.md)
