@@ -36,7 +36,7 @@
 - [操作系统]()
 - [计算机原理](docs/article/basic/principlesOfComputer.md)
 - [网络安全]()
-- [设计模式]()
+- [设计模式](docs/article/basic/designPattern.md)
 
 ## 💾 数据库
 - [数据库原理]()
