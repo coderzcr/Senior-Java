@@ -25,7 +25,7 @@
 
 -[大白话简单工厂模式 (Simple Factory Pattern)](http://coderzcr.top/index.php/archives/7/)
 
--[大白话工厂方法模式（Factory Method](http://coderzcr.top/index.php/archives/14/)
+-[大白话工厂方法模式（Factory Method)](http://coderzcr.top/index.php/archives/14/)
 
 ### 推荐文章
 
