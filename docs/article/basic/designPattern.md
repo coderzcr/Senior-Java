@@ -21,6 +21,10 @@
 
 <img src="http://coderzcr.gitee.io/sensor-java-picture/pictures/s6908318.jpg" alt="大话设计模式"  width="135" height="200">
 
+### 作者亲笔
+
+-[大白话简单工厂模式 (Simple Factory Pattern)](http://coderzcr.top/index.php/archives/7/)
+-[大白话工厂方法模式（Factory Method](http://coderzcr.top/index.php/archives/14/)
 
 ### 推荐文章
 
