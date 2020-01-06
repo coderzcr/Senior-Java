@@ -27,6 +27,8 @@
 
 -[大白话工厂方法模式（Factory Method)](http://coderzcr.top/index.php/archives/14/)
 
+-[大白话抽象工厂模式（Abstract Factory Pattern）](http://coderzcr.top/index.php/archives/20/)
+
 ### 推荐文章
 
 ### 联系我
