@@ -8,7 +8,7 @@
 - [图说设计模式 — Graphic Design Patterns](https://design-patterns.readthedocs.io/zh_CN/latest/)
 - [史上最全设计模式导学目录（完整版）_软件工程,设计模式,博客_刘伟技术博客-CSDN博客](https://blog.csdn.net/lovelion/article/details/17517213)
 - [写最好的设计模式专栏 · 看云](https://www.kancloud.cn/digest/xing-designpattern/143722)
-
+- [Design Patterns 重磅推荐，英文基础好首推。以漫画形式进行讲解，非常形象](https://refactoring.guru/design-patterns)
 
 ### 推荐书籍
 
