@@ -29,6 +29,8 @@
 
 -[大白话抽象工厂模式（Abstract Factory Pattern）](http://coderzcr.top/index.php/archives/20/)
 
+-[大白话建造者模式(Builder Pattern)](http://coderzcr.top/index.php/archives/22/)
+
 ### 推荐文章
 
 -[趣说单例模式——选班长 漫画形式讲解单例模式多种实现方式，java实现](http://www.360doc.com/content/19/0216/20/5315_815393178.shtml)
